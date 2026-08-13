@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "evidence": {
+    "courseEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/courses",
+    "itemsEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/course/697/items",
+    "authenticatedAcademyListed": true,
+    "authenticatedLearningItemCount": 10,
+    "allApiItemsPresentInAuthenticatedListing": true,
+    "lockedMarkerPresent": false,
+    "error": ""
+  },
+  "course": {
+    "id": 697,
+    "title": "Crystal Ball: Volume 1",
+    "slug": "crystal-ball-volume-1",
+    "url": "https://tricktrades.com/day-trading-academy/crystal-ball-volume-1",
+    "status": "publish",
+    "isPrivate": true,
+    "description": "Crystal Ball will help day traders understand and predict market actions without relying on algorithms or AI. You will learn to dissect market actions through live examples which demonstrate how to forecast market movements accurately.",
+    "excerpt": "Trick Trades Crystal Ball is an in-depth price action dissection of live market action where Pat Mitchell Draws out what will happen prior to happening. Full in-depth lessons where you can learn to “see the future”",
+    "reportedLessonCount": 8,
+    "publishedLessonCount": 8,
+    "reportedAssessmentCount": 2,
+    "hasCertificate": true,
+    "products": [
+      {
+        "id": 698,
+        "name": "Crystal Ball: Volume 1"
+      }
+    ]
+  },
+  "items": {
+    "modules": [],
+    "chapters": [],
+    "lessons": [
+      {
+        "id": 88812,
+        "kind": "lesson",
+        "title": "The Crystal Ball Effect",
+        "slug": "the-crystal-ball-effect",
+        "url": "https://tricktrades.com/course/the-crystal-ball-effect",
+        "parentId": null,
+        "order": 0,
+        "status": "publish",
+        "description": "Learn about the \"crystal ball effect\" in trading. Pat explains how to identify areas of support and resistance on intraday charts to predict future price movements. He emphasizes the importance of clearing resistance levels before entering long positions and demonstrate how to capitalize on market dynamics for successful trading. See for yourself the ability to analyze charts effectively and make informed trading decisions based on technical analysis principles.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/6KxXS5S?links=0&logo=0&title=0&subtitles=auto"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88813,
+        "kind": "lesson",
+        "title": "Natural Movement",
+        "slug": "natural-movement",
+        "url": "https://tricktrades.com/course/natural-movement",
+        "parentId": null,
+        "order": 2,
+        "status": "publish",
+        "description": "Pat teaches about the importance of being an account builder rather than rushing to be a trader by focusing on one main trade and executing it properly before taking multiple trades. He also shares examples of how failing to consider factors like premium and risk management can lead to losses. Priority #1 is to minimize damage and remain one step ahead in trading.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/8bKgwg1?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88814,
+        "kind": "lesson",
+        "title": "Trade Management",
+        "slug": "trade-management",
+        "url": "https://tricktrades.com/course/trade-management",
+        "parentId": null,
+        "order": 4,
+        "status": "publish",
+        "description": "The video provides insights on trading strategies, emphasizing the importance of identifying support and resistance levels, taking quick and calculated trades, managing risk effectively, and adjusting positions based on market movements.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/sE83ok6?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88815,
+        "kind": "lesson",
+        "title": "Taking a Reset Trade",
+        "slug": "taking-a-reset-trade",
+        "url": "https://tricktrades.com/course/taking-a-reset-trade",
+        "parentId": null,
+        "order": 7,
+        "status": "publish",
+        "description": "Learn how to take a reset trade after a loss by interpreting market movements, identifying key levels of support and resistance, and making trade decisions based on chart analysis.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/5vTQVAY?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88977,
+        "kind": "lesson",
+        "title": "Taking a Headbump",
+        "slug": "taking-a-headbump",
+        "url": "https://tricktrades.com/course/taking-a-headbump",
+        "parentId": null,
+        "order": 9,
+        "status": "publish",
+        "description": "A quick study on head bumps and support levels.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/LsGnFJA?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88816,
+        "kind": "lesson",
+        "title": "Commit To Your Trade",
+        "slug": "commit-to-your-trade",
+        "url": "https://tricktrades.com/course/commit-to-your-trade",
+        "parentId": null,
+        "order": 11,
+        "status": "publish",
+        "description": "In this lesson, Pat teaches about the need for self-awareness and honesty to improve trading behaviors for better results. Learn the importance of controlling emotions during trading, focusing on committing fully to trades, and making rational decisions rather than emotional exits.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/t7kk2ye?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88817,
+        "kind": "lesson",
+        "title": "Squeeze Zones",
+        "slug": "squeeze-zones",
+        "url": "https://tricktrades.com/course/squeeze-zones",
+        "parentId": null,
+        "order": 13,
+        "status": "publish",
+        "description": "Learn about the importance of recognizing traps, identifying potential squeezes, and paying attention to support and resistance levels. Pat will teach you about the need for patience, proper execution, and the ability to anticipate potential moves in order to maximize profits.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/A5FMe23?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88983,
+        "kind": "lesson",
+        "title": "Live Trading",
+        "slug": "live-trading",
+        "url": "https://tricktrades.com/course/live-trading",
+        "parentId": null,
+        "order": 15,
+        "status": "publish",
+        "description": "Pat trades SPY into the level for a short while recognizing the risk of a short squeeze.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/Wy5x76z?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ],
+    "assessments": [
+      {
+        "id": 88985,
+        "kind": "assessment",
+        "title": "Crystal Ball Volume 1: Quiz 1",
+        "slug": "crystal-ball-volume-1-quiz-1",
+        "url": "https://tricktrades.com/assessment/crystal-ball-volume-1-quiz-1",
+        "parentId": null,
+        "order": 6,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88986,
+        "kind": "assessment",
+        "title": "Crystal Ball Volume 1: Quiz 2",
+        "slug": "crystal-ball-volume-1-quiz-2",
+        "url": "https://tricktrades.com/assessment/crystal-ball-volume-1-quiz-2",
+        "parentId": null,
+        "order": 17,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ]
+  },
+  "unresolvedItems": []
+}

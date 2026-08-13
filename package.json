@@ -6,21 +6,21 @@
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
-		"build:sites": "node scripts/stage-sites.mjs",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"db:generate": "drizzle-kit generate",
-		"db:migrate": "drizzle-kit migrate",
-		"db:studio": "drizzle-kit studio"
+		"catalog:sync": "node scripts/sync-migration-catalog.mjs",
+		"db:generate": "node --env-file-if-exists=.env node_modules/drizzle-kit/bin.cjs generate",
+		"db:migrate": "node --env-file-if-exists=.env node_modules/drizzle-kit/bin.cjs migrate",
+		"db:seed": "node --env-file-if-exists=.env scripts/seed-admin.mjs",
+		"db:studio": "node --env-file-if-exists=.env node_modules/drizzle-kit/bin.cjs studio"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-cloudflare": "7.2.9",
+		"@sveltejs/adapter-vercel": "^6.3.4",
 		"@sveltejs/kit": "^2.70.2",
 		"@sveltejs/vite-plugin-svelte": "^7.1.2",
 		"drizzle-kit": "0.31.10",
-		"esbuild": "0.28.2",
 		"svelte": "^5.56.9",
 		"svelte-check": "^4.6.0",
 		"typescript": "^6.0.3",
@@ -28,6 +28,7 @@
 	},
 	"dependencies": {
 		"@neondatabase/serverless": "1.1.0",
-		"drizzle-orm": "0.45.2"
+		"drizzle-orm": "0.45.2",
+		"postgres": "^3.4.9"
 	}
 }

@@ -8,6 +8,8 @@ node_modules
 /.svelte-kit
 /build
 /dist
+/.postgres-data*
+/.postgres.log
 
 # OS
 .DS_Store

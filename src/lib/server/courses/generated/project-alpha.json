@@ -1,0 +1,2216 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "evidence": {
+    "courseEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/courses",
+    "itemsEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/course/738/items",
+    "authenticatedAcademyListed": true,
+    "authenticatedLearningItemCount": 62,
+    "allApiItemsPresentInAuthenticatedListing": true,
+    "lockedMarkerPresent": false,
+    "error": ""
+  },
+  "course": {
+    "id": 738,
+    "title": "Project ALPHA",
+    "slug": "project-alpha",
+    "url": "https://tricktrades.com/day-trading-academy/project-alpha",
+    "status": "publish",
+    "isPrivate": true,
+    "description": "",
+    "excerpt": "A 90-day research study investigating whether alpha brainwave state training can transform day trading performance, decision-making, and emotional control.",
+    "reportedLessonCount": 77,
+    "publishedLessonCount": 62,
+    "reportedAssessmentCount": 0,
+    "hasCertificate": false,
+    "products": [
+      {
+        "id": 741,
+        "name": "Project ALPHA"
+      }
+    ]
+  },
+  "items": {
+    "modules": [],
+    "chapters": [
+      {
+        "id": 168229,
+        "kind": "chapter",
+        "title": "Welcome & Orientation",
+        "slug": "welcome-orientation",
+        "url": "https://tricktrades.com/chapter/welcome-orientation",
+        "parentId": null,
+        "order": 0,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 168230,
+        "kind": "chapter",
+        "title": "Preloading Phase",
+        "slug": "preloading-phase",
+        "url": "https://tricktrades.com/chapter/preloading-phase",
+        "parentId": null,
+        "order": 1,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 168231,
+        "kind": "chapter",
+        "title": "Phase 1: Foundation",
+        "slug": "phase-1-foundation",
+        "url": "https://tricktrades.com/chapter/phase-1-foundation",
+        "parentId": null,
+        "order": 2,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 168232,
+        "kind": "chapter",
+        "title": "Phase 2: Integration",
+        "slug": "phase-2-integration",
+        "url": "https://tricktrades.com/chapter/phase-2-integration",
+        "parentId": null,
+        "order": 3,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 168233,
+        "kind": "chapter",
+        "title": "Phase 3: Mastery",
+        "slug": "phase-3-mastery",
+        "url": "https://tricktrades.com/chapter/phase-3-mastery",
+        "parentId": null,
+        "order": 4,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 174266,
+        "kind": "chapter",
+        "title": "Optional Lessons",
+        "slug": "optional-lessons",
+        "url": "https://tricktrades.com/chapter/optional-lessons",
+        "parentId": null,
+        "order": 5,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      }
+    ],
+    "lessons": [
+      {
+        "id": 169623,
+        "kind": "lesson",
+        "title": "3.11 Understanding Your EEG Data: Optional Lesson",
+        "slug": "understanding-your-eeg-data",
+        "url": "https://tricktrades.com/course/understanding-your-eeg-data",
+        "parentId": 174266,
+        "order": 0,
+        "status": "publish",
+        "description": "This lesson provides a quick recap of how our EEG data is being measured — and how this can be helpful in improving accuracy in our daily observations.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169750,
+        "kind": "lesson",
+        "title": "4.1 Phase 2 Overview",
+        "slug": "phase-2-overview",
+        "url": "https://tricktrades.com/course/phase-2-overview",
+        "parentId": 168232,
+        "order": 0,
+        "status": "publish",
+        "description": "In Phase 1 you were learning to run the daily protocol consistently. In Phase 2 you learn to use it as a real-time instrument — to catch what's happening in your brain state as it's happening, not after the fact.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168255,
+        "kind": "lesson",
+        "title": "3.1 Phase 1 Overview: Building the Foundation",
+        "slug": "phase-1-overview-building-the-foundation",
+        "url": "https://tricktrades.com/course/phase-1-overview-building-the-foundation",
+        "parentId": 168231,
+        "order": 0,
+        "status": "publish",
+        "description": "In this phase of the study, we establish the baselines that we'll use as a reference point for emotional and financial progress over the next 90 days. This lessons sets clear expectations for the next 30 days.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170118,
+        "kind": "lesson",
+        "title": "5.1 Phase 3 Overview: The Final Push",
+        "slug": "phase-3-overview-the-final-push",
+        "url": "https://tricktrades.com/course/phase-3-overview-the-final-push",
+        "parentId": 168233,
+        "order": 0,
+        "status": "publish",
+        "description": "Phase 3 is about consistency. The question is no longer “Can I do this?” It’s “Who am I becoming?”",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168245,
+        "kind": "lesson",
+        "title": "2.1 Preloading Phase Overview",
+        "slug": "preloading-phase-overview",
+        "url": "https://tricktrades.com/course/preloading-phase-overview",
+        "parentId": 168230,
+        "order": 0,
+        "status": "publish",
+        "description": "What to expect this week. The goal: become comfortable with the technology and establish your baseline. No trading yet. No pressure. Just preparation.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 171194,
+        "kind": "lesson",
+        "title": "1.0 Project Alpha Kick with Dr. Olav Krigolson",
+        "slug": "1-0-project-alpha-kick-with-dr-olav-krigolson",
+        "url": "https://tricktrades.com/course/1-0-project-alpha-kick-with-dr-olav-krigolson",
+        "parentId": 168229,
+        "order": 0,
+        "status": "publish",
+        "description": "",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/1180449240?share=copy&fl=sv&fe=ci"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168237,
+        "kind": "lesson",
+        "title": "1.1 Project Alpha Introduction",
+        "slug": "project-alpha-introduction",
+        "url": "https://tricktrades.com/course/project-alpha-introduction",
+        "parentId": 168229,
+        "order": 1,
+        "status": "publish",
+        "description": "A detailed walk-through and foundational introduction to Project Alpha.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/1172364053/da748dbe5f?fl=ip&fe=ec"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169784,
+        "kind": "lesson",
+        "title": "4.2 Week 5 Check-In",
+        "slug": "week-5-check-in",
+        "url": "https://tricktrades.com/course/week-5-check-in",
+        "parentId": 168232,
+        "order": 1,
+        "status": "publish",
+        "description": "A quick refresher on the two gaps - the one we're closing, and the one we're creating - to go with this week's check-in.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170144,
+        "kind": "lesson",
+        "title": "5.3 Week 9 Check-In",
+        "slug": "week-9-check-in",
+        "url": "https://tricktrades.com/course/week-9-check-in",
+        "parentId": 168233,
+        "order": 1,
+        "status": "publish",
+        "description": "A quick Archetype refresher to go with this week's check-in.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 174267,
+        "kind": "lesson",
+        "title": "3.12 Week 3 Recap: Optional Lesson",
+        "slug": "week-3-recap-optional-lesson",
+        "url": "https://tricktrades.com/course/week-3-recap-optional-lesson",
+        "parentId": 174266,
+        "order": 1,
+        "status": "publish",
+        "description": "Recap of third week into the study.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168246,
+        "kind": "lesson",
+        "title": "2.2 Complete Your Intake Questionnaire",
+        "slug": "complete-your-intake-questionnaire",
+        "url": "https://tricktrades.com/course/complete-your-intake-questionnaire",
+        "parentId": 168230,
+        "order": 1,
+        "status": "publish",
+        "description": "This questionnaire establishes your baseline profile before the study begins.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168241,
+        "kind": "lesson",
+        "title": "3.2 Using Size UP",
+        "slug": "using-size-up",
+        "url": "https://tricktrades.com/course/using-size-up",
+        "parentId": 168231,
+        "order": 1,
+        "status": "publish",
+        "description": "New features specific for Project ALPHA study participants.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169149,
+        "kind": "lesson",
+        "title": "1.2 Order Muse Device",
+        "slug": "order-muse-device",
+        "url": "https://tricktrades.com/course/order-muse-device",
+        "parentId": 168229,
+        "order": 2,
+        "status": "publish",
+        "description": "Order your Muse device. Be sure to use coupon code provided to get the 25% off discount.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169753,
+        "kind": "lesson",
+        "title": "4.4 CORE ALPHA Session 3: Intention",
+        "slug": "core-alpha-session-3-intention",
+        "url": "https://tricktrades.com/course/core-alpha-session-3-intention",
+        "parentId": 168232,
+        "order": 2,
+        "status": "publish",
+        "description": "The first two sessions trained you to let go (surrender) and to stop reacting (neutrality). Now the question becomes: if you’re not reacting, what are you doing instead? The answer is: acting with intention.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169781,
+        "kind": "lesson",
+        "title": "3.13 The Professional Trader: Optional Lesson",
+        "slug": "the-professional-trader",
+        "url": "https://tricktrades.com/course/the-professional-trader",
+        "parentId": 174266,
+        "order": 2,
+        "status": "publish",
+        "description": "There is one archetype that is real. It is found by choice. Everything else is the misplaced search for certainty.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168240,
+        "kind": "lesson",
+        "title": "2.3 Setting Up the MUSE App",
+        "slug": "setting-up-the-muse-app",
+        "url": "https://tricktrades.com/course/setting-up-the-muse-app",
+        "parentId": 168230,
+        "order": 2,
+        "status": "publish",
+        "description": "Download and install instructions (iOS/Android). Connecting to the Muse headband. Verifying signal quality (all four sensors green). Confirming automatic data sync.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168256,
+        "kind": "lesson",
+        "title": "3.3 Paper Trading Protocol (Days 1–5)",
+        "slug": "paper-trading-protocol-days-1-5",
+        "url": "https://tricktrades.com/course/paper-trading-protocol-days-1-5",
+        "parentId": 168231,
+        "order": 2,
+        "status": "publish",
+        "description": "Paper trading correctly is one of the most critical parts of this study and requires full professional discipline from the start.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170123,
+        "kind": "lesson",
+        "title": "5.4 CORE ALPHA Session 5: Mastery",
+        "slug": "core-alpha-session-5-mastery",
+        "url": "https://tricktrades.com/course/core-alpha-session-5-mastery",
+        "parentId": 168233,
+        "order": 2,
+        "status": "publish",
+        "description": "The final CORE Alpha session integrates everything that came before into a single, sustainable practice. Surrender, neutrality, intention, and identity are now established.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169788,
+        "kind": "lesson",
+        "title": "4.5 Week 6 Check-In",
+        "slug": "week-6-check-in",
+        "url": "https://tricktrades.com/course/week-6-check-in",
+        "parentId": 168232,
+        "order": 3,
+        "status": "publish",
+        "description": "The mid-study cognitive assessment arrives on Day 45, which means Dr. Krigolson's team will soon have their first direct comparison to your Day -7 baseline.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168445,
+        "kind": "lesson",
+        "title": "1.3 Complete Non-Disclosure Agreement",
+        "slug": "complete-non-disclosure-agreement",
+        "url": "https://tricktrades.com/course/complete-non-disclosure-agreement",
+        "parentId": 168229,
+        "order": 3,
+        "status": "publish",
+        "description": "This study is confidential and contains proprietary materials and intellectual property. Participants of the study must agree to maintain full confidentiality in regard to their participation in this study, unless written permission is granted.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170132,
+        "kind": "lesson",
+        "title": "5.5 Week 10 Check-In",
+        "slug": "week-10-check-in",
+        "url": "https://tricktrades.com/course/week-10-check-in",
+        "parentId": 168233,
+        "order": 3,
+        "status": "publish",
+        "description": "Eight weeks. You’ve been doing this for almost two months. The routine should feel like a part of your day, not something extra. If it still feels forced, that’s information — journal about what’s in the way.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168239,
+        "kind": "lesson",
+        "title": "2.4 Muse Headband & Daily Protocol",
+        "slug": "muse-headband-daily-protocol",
+        "url": "https://tricktrades.com/course/muse-headband-daily-protocol",
+        "parentId": 168230,
+        "order": 3,
+        "status": "publish",
+        "description": "Step-by-step headband setup. Unboxing, fitting (forehead sensors on skin, earpieces snug), pairing with phone/tablet. Common fit issues and fixes.",
+        "lessonType": "text",
+        "resourceCount": 2,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169729,
+        "kind": "lesson",
+        "title": "3.14 The Path and Its Tests: Optional Lesson",
+        "slug": "the-path-and-its-tests",
+        "url": "https://tricktrades.com/course/the-path-and-its-tests",
+        "parentId": 174266,
+        "order": 3,
+        "status": "publish",
+        "description": "This lesson covers two things: how to recover when the protocol gets disrupted, and how to recognize the specific pattern driving it.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169541,
+        "kind": "lesson",
+        "title": "3.4 The One Trade Principle",
+        "slug": "the-one-trade-principle",
+        "url": "https://tricktrades.com/course/the-one-trade-principle",
+        "parentId": 168231,
+        "order": 3,
+        "status": "publish",
+        "description": "This lesson isn't about the rule. It's about why the rule is actually the most powerful thing you can do for your development as a trader — and why breaking it, even once, costs you more than you think.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169790,
+        "kind": "lesson",
+        "title": "4.6 Mid-Study Cognitive Assessment",
+        "slug": "mid-study-cognitive-assessment",
+        "url": "https://tricktrades.com/course/mid-study-cognitive-assessment",
+        "parentId": 168232,
+        "order": 4,
+        "status": "publish",
+        "description": "Halfway through the study. This is also the day of your mid-study cognitive assessment. Reflection prompt: what has changed about how you relate to trading?",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 175218,
+        "kind": "lesson",
+        "title": "3.15 Week 4 Recap: Optional Lesson",
+        "slug": "week-4-recap-optional-lesson",
+        "url": "https://tricktrades.com/course/week-4-recap-optional-lesson",
+        "parentId": 174266,
+        "order": 4,
+        "status": "publish",
+        "description": "Take a moment to reflect and review this week's progress.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168443,
+        "kind": "lesson",
+        "title": "2.5 Paper Trading Account Setup",
+        "slug": "paper-trading-account-setup",
+        "url": "https://tricktrades.com/course/paper-trading-account-setup",
+        "parentId": 168230,
+        "order": 4,
+        "status": "publish",
+        "description": "Study begins with five paper trading session to establish the most non-emotional baseline of brainwave activity. This will be the starting point, and will allow us to compare both brainwaves and heart rate over throughout the duration of the study.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168446,
+        "kind": "lesson",
+        "title": "1.4 Complete Informed Consent Form",
+        "slug": "complete-informed-consent-form",
+        "url": "https://tricktrades.com/course/complete-informed-consent-form",
+        "parentId": 168229,
+        "order": 4,
+        "status": "publish",
+        "description": "Participation in Project ALPHA is voluntary and by participating in Project ALPHA, you agree to the terms of the study. Please read and complete the Informed Consent Form.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169542,
+        "kind": "lesson",
+        "title": "3.5 The Post-Market Wind Down",
+        "slug": "the-post-market-wind-down",
+        "url": "https://tricktrades.com/course/the-post-market-wind-down",
+        "parentId": 168231,
+        "order": 4,
+        "status": "publish",
+        "description": "Break the loop created by a stressed mind with this brief wind down session.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168238,
+        "kind": "lesson",
+        "title": "1.5 Project ALPHA General Road Map",
+        "slug": "study-guide",
+        "url": "https://tricktrades.com/course/study-guide",
+        "parentId": 168229,
+        "order": 5,
+        "status": "publish",
+        "description": "Refer to this Road Map throughout the study when needed.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170134,
+        "kind": "lesson",
+        "title": "4.7 Week 7 Check-In",
+        "slug": "week-7-check-in",
+        "url": "https://tricktrades.com/course/week-7-check-in",
+        "parentId": 168232,
+        "order": 5,
+        "status": "publish",
+        "description": "We are moving into the 2nd half of the study, and tomorrow, Session 4 of CORE Alpha unlocks.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168247,
+        "kind": "lesson",
+        "title": "2.6 Baseline Cognitive Assessment",
+        "slug": "baseline-cognitive-assessment",
+        "url": "https://tricktrades.com/course/baseline-cognitive-assessment",
+        "parentId": 168230,
+        "order": 5,
+        "status": "publish",
+        "description": "Completing the baseline cognitive assessment through the MUSE app: eyes open session followed by eyes closed session. Explains what this establishes (baseline alpha activity, peak alpha frequency, brainwave profile). Mark complete when recorded.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168257,
+        "kind": "lesson",
+        "title": "3.6 Your Daily Routine: Step by Step",
+        "slug": "your-daily-routine-step-by-step",
+        "url": "https://tricktrades.com/course/your-daily-routine-step-by-step",
+        "parentId": 168231,
+        "order": 5,
+        "status": "publish",
+        "description": "Detailed walkthrough of a complete study day from pre-market through evening. Covers each block: headband connection, CORE ALPHA session, breath-linked chart observation, trading, post-market debrief, Stroop/nBack training, journaling. Short video showing the flow.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168994,
+        "kind": "lesson",
+        "title": "1.6 Assessments & Expectations",
+        "slug": "assessments-expectations",
+        "url": "https://tricktrades.com/course/assessments-expectations",
+        "parentId": 168229,
+        "order": 6,
+        "status": "publish",
+        "description": "Research study assessment schedule and overview of expectations.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170137,
+        "kind": "lesson",
+        "title": "5.8 Week 11 Check-In",
+        "slug": "week-11-check-in",
+        "url": "https://tricktrades.com/course/week-11-check-in",
+        "parentId": 168233,
+        "order": 6,
+        "status": "publish",
+        "description": "Eight weeks. You’ve been doing this for almost two months. The routine should feel like a part of your day, not something extra. If it still feels forced, that’s information — journal about what’s in the way.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168250,
+        "kind": "lesson",
+        "title": "2.7 Stroop Training: The Science of Catching Yourself",
+        "slug": "stroop-training-the-science-of-catching-yourself",
+        "url": "https://tricktrades.com/course/stroop-training-the-science-of-catching-yourself",
+        "parentId": 168230,
+        "order": 6,
+        "status": "publish",
+        "description": "Stroop training is included in the MUSE app as part of the study. This lessons introduces nearly a century of science behind impulse control - and how to catch yourself.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168258,
+        "kind": "lesson",
+        "title": "3.7 Week 1 Check-In",
+        "slug": "week-1-check-in",
+        "url": "https://tricktrades.com/course/week-1-check-in",
+        "parentId": 168231,
+        "order": 6,
+        "status": "publish",
+        "description": "How was your first week? What to expect: the routine feels awkward at first. The headband takes getting used to. Your mind will wander during meditation — that’s the training, not a failure. Reminder to complete weekly cognitive assessment and weekly check-in form.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169792,
+        "kind": "lesson",
+        "title": "4.8 CORE ALPHA Session 4: Identity",
+        "slug": "core-alpha-session-4-identity",
+        "url": "https://tricktrades.com/course/core-alpha-session-4-identity",
+        "parentId": 168232,
+        "order": 6,
+        "status": "publish",
+        "description": "The gap between “I practice calm trading” and “I am a calm trader” is the difference between habit and identity. Habits can be broken under pressure. Identity holds.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169104,
+        "kind": "lesson",
+        "title": "1.8 The Brain State Behind the Trade",
+        "slug": "the-brain-state-behind-the-trade",
+        "url": "https://tricktrades.com/course/the-brain-state-behind-the-trade",
+        "parentId": 168229,
+        "order": 7,
+        "status": "publish",
+        "description": "The hypothesis behind Project Alpha is based on proven science. In the next two lessons, we'll take a deeper look into the battle between alpha and high beta brainwave states.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168987,
+        "kind": "lesson",
+        "title": "2.8 nBack Training: The Mental Juggling Act",
+        "slug": "nback-training-the-mental-juggling-act",
+        "url": "https://tricktrades.com/course/nback-training-the-mental-juggling-act",
+        "parentId": 168230,
+        "order": 7,
+        "status": "publish",
+        "description": "nBack training is also included in the MUSE app as part of the study. It is used in cognitive neuroscience for studying and improving working memory while under load.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170139,
+        "kind": "lesson",
+        "title": "5.9 Week 12 Check-In",
+        "slug": "week-12-check-in",
+        "url": "https://tricktrades.com/course/week-12-check-in",
+        "parentId": 168233,
+        "order": 7,
+        "status": "publish",
+        "description": "Final Check-In for Project Alpha.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169813,
+        "kind": "lesson",
+        "title": "4.10 The Archetype Revisited: Optional Lesson",
+        "slug": "the-archetype-revisited",
+        "url": "https://tricktrades.com/course/the-archetype-revisited",
+        "parentId": 174266,
+        "order": 7,
+        "status": "publish",
+        "description": "This optional lesson asks a simple question: after eight weeks and four CORE ALPHA sessions, what is the current state of your archetype? Where you hoped it would be, or where it actually is?",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169793,
+        "kind": "lesson",
+        "title": "4.9 Week 8 Check-In",
+        "slug": "week-8-check-in",
+        "url": "https://tricktrades.com/course/week-8-check-in",
+        "parentId": 168232,
+        "order": 7,
+        "status": "publish",
+        "description": "By now the tools are established. What this week asks is whether the tools have become internalized — whether they've moved from things you use to things you are.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168259,
+        "kind": "lesson",
+        "title": "3.8 Transitioning Back to Funded Account",
+        "slug": "transitioning-back-to-funded-account",
+        "url": "https://tricktrades.com/course/transitioning-back-to-funded-account",
+        "parentId": 168231,
+        "order": 7,
+        "status": "publish",
+        "description": "Day 6 guidance. This is where financial fear potentially re-enters the equation. Notice the difference in your body between paper and live trading. That difference is exactly what the study measures. Don’t fight it. Observe it.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169115,
+        "kind": "lesson",
+        "title": "1.8 The Two Minds",
+        "slug": "the-two-minds",
+        "url": "https://tricktrades.com/course/the-two-minds",
+        "parentId": 168229,
+        "order": 8,
+        "status": "publish",
+        "description": "In this lesson, we take a closer look at how the internal world of the mind perfectly mirrors the external world of our body.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 172186,
+        "kind": "lesson",
+        "title": "2.9 Practice Session: Your First Stroop and nBack Training",
+        "slug": "first-stroop-and-nback-training",
+        "url": "https://tricktrades.com/course/first-stroop-and-nback-training",
+        "parentId": 168230,
+        "order": 8,
+        "status": "publish",
+        "description": "Practice Stroop and nBack Training",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170152,
+        "kind": "lesson",
+        "title": "5.10 Final Cognitive Assessment & Offboarding",
+        "slug": "final-cognitive-assessment-offboarding",
+        "url": "https://tricktrades.com/course/final-cognitive-assessment-offboarding",
+        "parentId": 168233,
+        "order": 8,
+        "status": "publish",
+        "description": "This lesson has one purpose: make sure the final assessment is completed under the right conditions so the data is clean. Today is the third point in a three-point trajectory.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169525,
+        "kind": "lesson",
+        "title": "3.9 Week 2 Check-In",
+        "slug": "week-2-check-in",
+        "url": "https://tricktrades.com/course/week-2-check-in",
+        "parentId": 168231,
+        "order": 8,
+        "status": "publish",
+        "description": "Take a moment to reflect on this week's challenges, wins and what's next.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168262,
+        "kind": "lesson",
+        "title": "3.10 CORE ALPHA Session 2: Neutrality",
+        "slug": "core-alpha-session-2-neutrality",
+        "url": "https://tricktrades.com/course/core-alpha-session-2-neutrality",
+        "parentId": 168231,
+        "order": 9,
+        "status": "publish",
+        "description": "Neutrality means refusing to label outcomes as good or bad — both poles trigger high-beta. Observe what happens in your body when a trade goes green vs. red. Is the reaction different? It shouldn’t be.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168739,
+        "kind": "lesson",
+        "title": "1.9 The Three Pillars",
+        "slug": "the-three-pillars",
+        "url": "https://tricktrades.com/course/the-three-pillars",
+        "parentId": 168229,
+        "order": 9,
+        "status": "publish",
+        "description": "The study is built on three daily practices. We call them the three daily pillars. Everything you do for the next 90 days runs through one of these three.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/1172485261/32f8aee400"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168248,
+        "kind": "lesson",
+        "title": "2.10 Practice Session: Your First ALPHA Meditation - Surrender",
+        "slug": "practice-session-your-first-alpha-meditation-surrender",
+        "url": "https://tricktrades.com/course/practice-session-your-first-alpha-meditation-surrender",
+        "parentId": 168230,
+        "order": 9,
+        "status": "publish",
+        "description": "Guided walkthrough of completing a practice CORE ALPHA meditation with the headband on and the ALPHA app recording. What to expect. How it should feel. Don’t worry if your mind wanders — that’s normal. Complete 2–3 practice sessions before Day 1.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 170310,
+        "kind": "lesson",
+        "title": "5.11 Day 90: Study Complete",
+        "slug": "day-90-study-complete",
+        "url": "https://tricktrades.com/course/day-90-study-complete",
+        "parentId": 168233,
+        "order": 9,
+        "status": "publish",
+        "description": "A recap of Project Alpha as the study comes to it's conclusion.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168251,
+        "kind": "lesson",
+        "title": "2.11 CORE ALPHA Session 1: Surrender",
+        "slug": "core-alpha-session-1-surrender",
+        "url": "https://tricktrades.com/course/core-alpha-session-1-surrender",
+        "parentId": 168230,
+        "order": 10,
+        "status": "publish",
+        "description": "Nothing else in this series works until the participant can truly let go of needing to control outcomes. Surrender is not passive resignation — it is the active, deliberate release of attachment to any specific result.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169752,
+        "kind": "lesson",
+        "title": "1.10 The Gap and the Path",
+        "slug": "the-gap-and-the-path",
+        "url": "https://tricktrades.com/course/the-gap-and-the-path",
+        "parentId": 168229,
+        "order": 10,
+        "status": "publish",
+        "description": "This is a brief visual lesson that takes you to Pat's office where you sit with him in Costa Rica. What will you see?",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169653,
+        "kind": "lesson",
+        "title": "3.12 Week 3 Check-In",
+        "slug": "week-3-check-in",
+        "url": "https://tricktrades.com/course/week-3-check-in",
+        "parentId": 168231,
+        "order": 10,
+        "status": "publish",
+        "description": "This is the check-in where things start getting interesting. Three weeks of consistent practice is long enough for something to begin shifting — even if you haven't fully noticed it yet.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168252,
+        "kind": "lesson",
+        "title": "2.12 Start Your Journal",
+        "slug": "start-your-journal",
+        "url": "https://tricktrades.com/course/start-your-journal",
+        "parentId": 168230,
+        "order": 11,
+        "status": "publish",
+        "description": "Why journaling matters for this study. What to write: observations about your mental state, initial impressions from practice sessions, anything you notice about your relationship to trading. This is qualitative data that supplements EEG. Keep it simple — 5 minutes per day.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168740,
+        "kind": "lesson",
+        "title": "1.11 The CORE ALPHA Journey",
+        "slug": "the-core-alpha-journey",
+        "url": "https://tricktrades.com/course/the-core-alpha-journey",
+        "parentId": 168229,
+        "order": 11,
+        "status": "publish",
+        "description": "The CORE ALPHA meditation series will be the backbone of your daily practice for this entire study.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/1172484602/4953dde897"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169731,
+        "kind": "lesson",
+        "title": "3.15 Week 4 Check-In",
+        "slug": "week-4-check-in",
+        "url": "https://tricktrades.com/course/week-4-check-in",
+        "parentId": 168231,
+        "order": 11,
+        "status": "publish",
+        "description": "Complete the Week 4 Check-In",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 169749,
+        "kind": "lesson",
+        "title": "3.16 Phase 1 Complete: Milestone Reflection",
+        "slug": "phase-1-complete-milestone-reflection",
+        "url": "https://tricktrades.com/course/phase-1-complete-milestone-reflection",
+        "parentId": 168231,
+        "order": 12,
+        "status": "publish",
+        "description": "Recap of the last 30 days.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168243,
+        "kind": "lesson",
+        "title": "2.13 Readiness Checklist",
+        "slug": "readiness-checklist",
+        "url": "https://tricktrades.com/course/readiness-checklist",
+        "parentId": 168230,
+        "order": 12,
+        "status": "publish",
+        "description": "Completion-tracked checklist confirming: Muse headband received and paired, ALPHA app installed and connected, Size UP access confirmed, brokerage account funded ($2,500), Trick Trades membership active, daily checklist printed. Mark complete when all items are done.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168242,
+        "kind": "lesson",
+        "title": "1.12 Your Daily Checklist (Printout)",
+        "slug": "your-daily-checklist",
+        "url": "https://tricktrades.com/course/your-daily-checklist",
+        "parentId": 168229,
+        "order": 12,
+        "status": "publish",
+        "description": "Download the printable daily checklist. Recommendation: print multiple copies, or laminate. Keep next to monitor.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 168254,
+        "kind": "lesson",
+        "title": "2.14 Preloading Complete: You’re Ready",
+        "slug": "preloading-complete-youre-ready",
+        "url": "https://tricktrades.com/course/preloading-complete-youre-ready",
+        "parentId": 168230,
+        "order": 13,
+        "status": "publish",
+        "description": "Final confirmation checklist: baseline cognitive assessment recorded, intake questionnaire submitted, 2–3 practice sessions completed, Stroop/nBack familiarization done, journal started. Reminder: Day 1 begins with paper trading. Your only job is to follow the protocol.",
+        "lessonType": "text",
+        "resourceCount": 2,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ],
+    "assessments": []
+  },
+  "unresolvedItems": [
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 62,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 63,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 64,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 65,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 66,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 67,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 68,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 69,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 70,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 71,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 72,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 73,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 74,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 75,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    },
+    {
+      "id": null,
+      "kind": "lesson",
+      "title": "",
+      "slug": "",
+      "url": "",
+      "parentId": null,
+      "order": 76,
+      "status": "evidence-missing",
+      "description": "",
+      "lessonType": null,
+      "resourceCount": 0,
+      "hasVideo": false,
+      "hasAudio": false,
+      "media": {
+        "video": {
+          "provider": "",
+          "url": ""
+        },
+        "audio": {
+          "provider": "",
+          "url": ""
+        }
+      },
+      "freemium": false,
+      "reason": "The course API reports this item but does not expose an evidenced item record."
+    }
+  ]
+}

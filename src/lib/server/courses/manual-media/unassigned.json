@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "source": "manual-recovery",
+  "scopeExclusion": "Pro Trading Room is unrelated and must not be queried or migrated.",
+  "items": [
+    {
+      "courseSlug": "",
+      "itemSlug": "",
+      "title": "",
+      "provider": "vimeo",
+      "url": "https://vimeo.com/371311441/8d85636f83",
+      "status": "evidenced-unassigned"
+    },
+    {
+      "courseSlug": "",
+      "itemSlug": "",
+      "title": "",
+      "provider": "vimeo",
+      "url": "https://vimeo.com/413374518/0f61dc331c",
+      "status": "evidenced-unassigned"
+    }
+  ]
+}

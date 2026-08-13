@@ -1,0 +1,1421 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "evidenceEndpoint": "https://tricktrades.com/wp-json/wc/store/v1/products?per_page=100&page=1",
+  "productCount": 79,
+  "products": [
+    {
+      "id": 48806,
+      "name": "B.O.S.S. Carbon",
+      "slug": "b-o-s-s-carbon",
+      "url": "https://tricktrades.com/product/b-o-s-s-carbon",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "B.O.S.S Series",
+        "B.O.S.S. Pack",
+        "B.O.S.S. Pair",
+        "Single DVDs",
+        "Streamed Educational Videos"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "59700",
+        "regularAmountMinor": "59700",
+        "saleAmountMinor": "59700"
+      }
+    },
+    {
+      "id": 17759,
+      "name": "B.O.S.S. SPY Sniper",
+      "slug": "spy-sniper",
+      "url": "https://tricktrades.com/product/spy-sniper",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "B.O.S.S Series",
+        "B.O.S.S. Pack",
+        "Single DVDs",
+        "Streamed Educational Videos"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "59700",
+        "regularAmountMinor": "59700",
+        "saleAmountMinor": "59700"
+      }
+    },
+    {
+      "id": 37183,
+      "name": "B.O.S.S. Swing",
+      "slug": "b-o-s-s-swing",
+      "url": "https://tricktrades.com/product/b-o-s-s-swing",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "B.O.S.S Series",
+        "B.O.S.S. Pack",
+        "Single DVDs",
+        "Streamed Educational Videos"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "59700",
+        "regularAmountMinor": "59700",
+        "saleAmountMinor": "59700"
+      }
+    },
+    {
+      "id": 55864,
+      "name": "Beat It Nerd",
+      "slug": "beat-it-nerd",
+      "url": "https://tricktrades.com/product/beat-it-nerd",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 122240,
+      "name": "Boot Camp Online Course",
+      "slug": "boot-camp-online-course",
+      "url": "https://tricktrades.com/product/boot-camp-online-course",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Online Courses"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "9700",
+        "regularAmountMinor": "14700",
+        "saleAmountMinor": "9700"
+      }
+    },
+    {
+      "id": 57571,
+      "name": "BossPack",
+      "slug": "getboss",
+      "url": "https://tricktrades.com/product/getboss",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "B.O.S.S Series",
+        "B.O.S.S. Pack"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "99700",
+        "regularAmountMinor": "99700",
+        "saleAmountMinor": "99700"
+      }
+    },
+    {
+      "id": 89272,
+      "name": "Crystal Ball Pack PLUS Bonus",
+      "slug": "crystal-ball-pack-plus-bonus",
+      "url": "https://tricktrades.com/product/crystal-ball-pack-plus-bonus",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Online Courses"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "64900",
+        "regularAmountMinor": "64900",
+        "saleAmountMinor": "64900"
+      }
+    },
+    {
+      "id": 86040,
+      "name": "Crystal Ball Pack PLUS Bonus DVD",
+      "slug": "crystal-ball-pack-plus-bonus-dvd",
+      "url": "https://tricktrades.com/product/crystal-ball-pack-plus-bonus-dvd",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Single DVDs"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "64900",
+        "regularAmountMinor": "64900",
+        "saleAmountMinor": "45430"
+      }
+    },
+    {
+      "id": 151832,
+      "name": "Fear of Big Losses in Trading? | Trick Trades Core",
+      "slug": "tt-core-binaural-meditations-big-losses",
+      "url": "https://tricktrades.com/product/tt-core-binaural-meditations-big-losses",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Big Losses",
+        "Meditations"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2500",
+        "regularAmountMinor": "2500",
+        "saleAmountMinor": "2500"
+      }
+    },
+    {
+      "id": 49236,
+      "name": "Guidance",
+      "slug": "guidance-3",
+      "url": "https://tricktrades.com/product/guidance-3",
+      "type": "subscription",
+      "isPurchasable": false,
+      "isInStock": false,
+      "categories": [
+        "Memberships"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "19700",
+        "regularAmountMinor": "19700",
+        "saleAmountMinor": "19700"
+      }
+    },
+    {
+      "id": 8340,
+      "name": "Guidance-old",
+      "slug": "guidance-2",
+      "url": "https://tricktrades.com/product/guidance-2",
+      "type": "subscription",
+      "isPurchasable": false,
+      "isInStock": false,
+      "categories": [
+        "Memberships"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "14700",
+        "regularAmountMinor": "14700",
+        "saleAmountMinor": "14700"
+      }
+    },
+    {
+      "id": 152004,
+      "name": "How to Break a Losing Streak Trading | Trick Trades Core",
+      "slug": "tt-core-binaural-meditations-losing-streak",
+      "url": "https://tricktrades.com/product/tt-core-binaural-meditations-losing-streak",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Losing Streak",
+        "Meditations"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2500",
+        "regularAmountMinor": "2500",
+        "saleAmountMinor": "2500"
+      }
+    },
+    {
+      "id": 152006,
+      "name": "How to Stop Oversizing Trades | Trick Trades Core",
+      "slug": "tt-core-binaural-meditations-oversizing",
+      "url": "https://tricktrades.com/product/tt-core-binaural-meditations-oversizing",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Meditations",
+        "Oversizing"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2500",
+        "regularAmountMinor": "2500",
+        "saleAmountMinor": "2500"
+      }
+    },
+    {
+      "id": 152007,
+      "name": "How to Stop Overtrading | Trick Trades Core",
+      "slug": "tt-core-binaural-meditations-overtrading",
+      "url": "https://tricktrades.com/product/tt-core-binaural-meditations-overtrading",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Overtrading"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2500",
+        "regularAmountMinor": "2500",
+        "saleAmountMinor": "2500"
+      }
+    },
+    {
+      "id": 4386,
+      "name": "Line In The Sand",
+      "slug": "line-in-the-sand-strategy",
+      "url": "https://tricktrades.com/product/line-in-the-sand-strategy",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "Streamed Educational Videos"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "29700",
+        "regularAmountMinor": "29700",
+        "saleAmountMinor": "29700"
+      }
+    },
+    {
+      "id": 46524,
+      "name": "Memberships",
+      "slug": "memberships",
+      "url": "https://tricktrades.com/product/memberships",
+      "type": "grouped",
+      "isPurchasable": false,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "19700",
+        "regularAmountMinor": "19700",
+        "saleAmountMinor": "19700"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Mentorship",
+      "slug": "mentorship",
+      "url": "https://tricktrades.com/product/mentorship",
+      "type": "subscription",
+      "isPurchasable": false,
+      "isInStock": false,
+      "categories": [
+        "Memberships"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "30900",
+        "regularAmountMinor": "30900",
+        "saleAmountMinor": "30900"
+      }
+    },
+    {
+      "id": 123598,
+      "name": "MIPO Alerts",
+      "slug": "mipo-alerts",
+      "url": "https://tricktrades.com/product/mipo-alerts",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "0",
+        "regularAmountMinor": "0",
+        "saleAmountMinor": "0"
+      }
+    },
+    {
+      "id": 62144,
+      "name": "Momentum",
+      "slug": "momentum",
+      "url": "https://tricktrades.com/product/momentum",
+      "type": "simple",
+      "isPurchasable": false,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "0",
+        "regularAmountMinor": "0",
+        "saleAmountMinor": "0"
+      }
+    },
+    {
+      "id": 131055,
+      "name": "Momentum Course",
+      "slug": "momentum-course",
+      "url": "https://tricktrades.com/product/momentum-course",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Online Courses"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "649700",
+        "regularAmountMinor": "649700",
+        "saleAmountMinor": "649700"
+      }
+    },
+    {
+      "id": 134798,
+      "name": "Momentum Live Trading: Round 18",
+      "slug": "momentum-live-round-18",
+      "url": "https://tricktrades.com/product/momentum-live-round-18",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "149700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "149700"
+      }
+    },
+    {
+      "id": 133013,
+      "name": "Momentum Live: Round 12",
+      "slug": "momentum-live-round-12",
+      "url": "https://tricktrades.com/product/momentum-live-round-12",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 134793,
+      "name": "Momentum Live: Round 13",
+      "slug": "momentum-live-round-13",
+      "url": "https://tricktrades.com/product/momentum-live-round-13",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 134794,
+      "name": "Momentum Live: Round 14",
+      "slug": "momentum-live-round-14",
+      "url": "https://tricktrades.com/product/momentum-live-round-14",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 134795,
+      "name": "Momentum Live: Round 15",
+      "slug": "momentum-live-round-15",
+      "url": "https://tricktrades.com/product/momentum-live-round-15",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 134796,
+      "name": "Momentum Live: Round 16",
+      "slug": "momentum-live-round-16",
+      "url": "https://tricktrades.com/product/momentum-live-round-16",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "149700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "149700"
+      }
+    },
+    {
+      "id": 134797,
+      "name": "Momentum Live: Round 17",
+      "slug": "momentum-live-round-17",
+      "url": "https://tricktrades.com/product/momentum-live-round-17",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "149700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "149700"
+      }
+    },
+    {
+      "id": 134799,
+      "name": "Momentum Live: Round 19",
+      "slug": "momentum-live-round-19",
+      "url": "https://tricktrades.com/product/momentum-live-round-19",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 134800,
+      "name": "Momentum Live: Round 20",
+      "slug": "momentum-live-round-20",
+      "url": "https://tricktrades.com/product/momentum-live-round-20",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 134801,
+      "name": "Momentum Live: Round 21",
+      "slug": "momentum-live-round-21",
+      "url": "https://tricktrades.com/product/momentum-live-round-21",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 134802,
+      "name": "Momentum Live: Round 22",
+      "slug": "momentum-live-round-22",
+      "url": "https://tricktrades.com/product/momentum-live-round-22",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 134803,
+      "name": "Momentum Live: Round 23",
+      "slug": "momentum-live-round-23",
+      "url": "https://tricktrades.com/product/momentum-live-round-23",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Momentum"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "199700",
+        "regularAmountMinor": "199700",
+        "saleAmountMinor": "199700"
+      }
+    },
+    {
+      "id": 4387,
+      "name": "Monster IPO",
+      "slug": "monster-ipo",
+      "url": "https://tricktrades.com/product/monster-ipo",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "Streamed Educational Videos"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "39700",
+        "regularAmountMinor": "39700",
+        "saleAmountMinor": "39700"
+      }
+    },
+    {
+      "id": 92916,
+      "name": "Polaris Flight",
+      "slug": "polaris-flight",
+      "url": "https://tricktrades.com/product/polaris-flight",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Budget"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "69700",
+        "regularAmountMinor": "69700",
+        "saleAmountMinor": "69700"
+      }
+    },
+    {
+      "id": 62900,
+      "name": "Polaris Launch",
+      "slug": "polaris-launch",
+      "url": "https://tricktrades.com/product/polaris-launch",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Budget"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "69700",
+        "regularAmountMinor": "69700",
+        "saleAmountMinor": "69700"
+      }
+    },
+    {
+      "id": 167718,
+      "name": "Project ALPHA",
+      "slug": "project-alpha",
+      "url": "https://tricktrades.com/product/project-alpha",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Project ALPHA"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "99900",
+        "regularAmountMinor": "99900",
+        "saleAmountMinor": "99900"
+      }
+    },
+    {
+      "id": 90583,
+      "name": "Size UP Guidance",
+      "slug": "size-up-guidance",
+      "url": "https://tricktrades.com/product/size-up-guidance",
+      "type": "subscription",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Memberships",
+        "Size Up"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "24700",
+        "regularAmountMinor": "24700",
+        "saleAmountMinor": "24700"
+      }
+    },
+    {
+      "id": 120395,
+      "name": "Size UP Guidance &#8211; Annual",
+      "slug": "size-up-guidance-annual",
+      "url": "https://tricktrades.com/product/size-up-guidance-annual",
+      "type": "subscription",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Memberships",
+        "Size Up"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "237130",
+        "regularAmountMinor": "237130",
+        "saleAmountMinor": "237130"
+      }
+    },
+    {
+      "id": 90584,
+      "name": "Size UP Mentorship",
+      "slug": "size-up-mentorship",
+      "url": "https://tricktrades.com/product/size-up-mentorship",
+      "type": "subscription",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Memberships",
+        "Size Up"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "34700",
+        "regularAmountMinor": "34700",
+        "saleAmountMinor": "34700"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Swing",
+      "slug": "basic",
+      "url": "https://tricktrades.com/product/basic",
+      "type": "subscription",
+      "isPurchasable": false,
+      "isInStock": true,
+      "categories": [
+        "Memberships"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "5200",
+        "regularAmountMinor": "5200",
+        "saleAmountMinor": "5200"
+      }
+    },
+    {
+      "id": 89271,
+      "name": "Trick Trades Crystal Ball Volume 2",
+      "slug": "tricktrades-crystal-ball-vol-2",
+      "url": "https://tricktrades.com/product/tricktrades-crystal-ball-vol-2",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Online Courses"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "39900",
+        "regularAmountMinor": "39900",
+        "saleAmountMinor": "39900"
+      }
+    },
+    {
+      "id": 54882,
+      "name": "TrickTrades BEASTS OF THE MARKET Premium Unisex Hoodie",
+      "slug": "tricktrades-beasts-of-the-market-premium-unisex-hoodie",
+      "url": "https://tricktrades.com/product/tricktrades-beasts-of-the-market-premium-unisex-hoodie",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "4795",
+        "regularAmountMinor": "4795",
+        "saleAmountMinor": "4795"
+      }
+    },
+    {
+      "id": 54829,
+      "name": "TrickTrades BEASTS OF THE MARKET Premium Unisex T",
+      "slug": "tricktrades-beasts-of-the-market-premium-unisex-t",
+      "url": "https://tricktrades.com/product/tricktrades-beasts-of-the-market-premium-unisex-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54947,
+      "name": "TrickTrades BEAT THE MARKET Premium T",
+      "slug": "tricktrades-heartbeat-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-heartbeat-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 67959,
+      "name": "TrickTrades Chat Premium T",
+      "slug": "short-sleeve-unisex-t-shirt-3",
+      "url": "https://tricktrades.com/product/short-sleeve-unisex-t-shirt-3",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 86032,
+      "name": "TrickTrades Crystal Ball DVD",
+      "slug": "tricktrades-crystal-ball-dvd-1",
+      "url": "https://tricktrades.com/product/tricktrades-crystal-ball-dvd-1",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Single DVDs"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "39900",
+        "regularAmountMinor": "39900",
+        "saleAmountMinor": "39900"
+      }
+    },
+    {
+      "id": 86038,
+      "name": "Tricktrades Crystal Ball DVD 2",
+      "slug": "tricktrades-crystal-ball-dvd-2",
+      "url": "https://tricktrades.com/product/tricktrades-crystal-ball-dvd-2",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [
+        "Single DVDs"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "39900",
+        "regularAmountMinor": "39900",
+        "saleAmountMinor": "39900"
+      }
+    },
+    {
+      "id": 89270,
+      "name": "TrickTrades Crystal Ball Volume 1",
+      "slug": "tricktrades-crystal-ball-vol-1",
+      "url": "https://tricktrades.com/product/tricktrades-crystal-ball-vol-1",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Online Courses"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "39900",
+        "regularAmountMinor": "39900",
+        "saleAmountMinor": "39900"
+      }
+    },
+    {
+      "id": 91587,
+      "name": "TrickTrades Crystal Ball: Gold Edition",
+      "slug": "tricktrades-crystal-ball-gold-edition",
+      "url": "https://tricktrades.com/product/tricktrades-crystal-ball-gold-edition",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Online Courses"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "39900",
+        "regularAmountMinor": "39900",
+        "saleAmountMinor": "39900"
+      }
+    },
+    {
+      "id": 65591,
+      "name": "TrickTrades Jack Daniels Premium T",
+      "slug": "tricktrades-jack-daniels-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-jack-daniels-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54959,
+      "name": "TrickTrades LEVEL LINES Premium T",
+      "slug": "tricktrades-lines-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-lines-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54971,
+      "name": "TrickTrades LEVEL LINES WITH VOODOO Premium T",
+      "slug": "tricktrades-level-lines-with-voodoo-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-level-lines-with-voodoo-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 83494,
+      "name": "TrickTrades Star Wars Premium T",
+      "slug": "tricktrades-star-wars-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-star-wars-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 66121,
+      "name": "TrickTrades Texaco Premium T",
+      "slug": "tricktrades-texaco-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-texaco-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 61914,
+      "name": "TrickTrades Top Gun Premium Hoodie",
+      "slug": "tricktrades-top-gun-hoodie",
+      "url": "https://tricktrades.com/product/tricktrades-top-gun-hoodie",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "7000",
+        "regularAmountMinor": "7000",
+        "saleAmountMinor": "7000"
+      }
+    },
+    {
+      "id": 66157,
+      "name": "TrickTrades Top Gun Premium T",
+      "slug": "short-sleeve-unisex-t-shirt-2",
+      "url": "https://tricktrades.com/product/short-sleeve-unisex-t-shirt-2",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54699,
+      "name": "TrickTrades Unisex BLACK LOGO Premium T",
+      "slug": "tricktrades-black-logo-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-black-logo-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54716,
+      "name": "TrickTrades Unisex BLUE LOGO Premium T",
+      "slug": "tricktrades-blue-logo-premium-t-2",
+      "url": "https://tricktrades.com/product/tricktrades-blue-logo-premium-t-2",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54233,
+      "name": "TrickTrades Unisex DISCIPLINE IS FREEDOM Premium T Black Graphic",
+      "slug": "tricktrades-discipline-is-freedom-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-discipline-is-freedom-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54812,
+      "name": "TrickTrades Unisex DISCIPLINE IS FREEDOM Premium T Blue Graphic",
+      "slug": "tricktrades-unisex-discipline-is-freedom-premium-t-blue-graphic",
+      "url": "https://tricktrades.com/product/tricktrades-unisex-discipline-is-freedom-premium-t-blue-graphic",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54795,
+      "name": "TrickTrades Unisex DISCIPLINE IS FREEDOM Premium T Red Graphic",
+      "slug": "tricktrades-unisex-discipline-is-freedom-premium-t-red-graphic",
+      "url": "https://tricktrades.com/product/tricktrades-unisex-discipline-is-freedom-premium-t-red-graphic",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54840,
+      "name": "TrickTrades Unisex DISCIPLINE IS FREEDOM Premium T Sky Blue Graphic",
+      "slug": "tricktrades-unisex-discipline-is-freedom-premium-t-sky-blue-graphic",
+      "url": "https://tricktrades.com/product/tricktrades-unisex-discipline-is-freedom-premium-t-sky-blue-graphic",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54646,
+      "name": "TrickTrades Unisex DISCIPLINE IS FREEDOM Premium T White Graphic",
+      "slug": "short-sleeve-unisex-t-shirt",
+      "url": "https://tricktrades.com/product/short-sleeve-unisex-t-shirt",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 55052,
+      "name": "TrickTrades Unisex LOGO SKY BLUE Premium T",
+      "slug": "tricktrades-logo-sky-blue-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-logo-sky-blue-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54674,
+      "name": "TrickTrades Unisex RED LOGO Premium T",
+      "slug": "tricktrades-blue-logo-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-blue-logo-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54663,
+      "name": "TrickTrades Unisex WHITE LOGO Premium T",
+      "slug": "tricktrades-unisex-logo-blue-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-unisex-logo-blue-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 54982,
+      "name": "TrickTrades VOODOO LINE Premium T",
+      "slug": "tricktrades-voodoo-line-premium-t",
+      "url": "https://tricktrades.com/product/tricktrades-voodoo-line-premium-t",
+      "type": "variable",
+      "isPurchasable": true,
+      "isInStock": false,
+      "categories": [],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2795",
+        "regularAmountMinor": "2795",
+        "saleAmountMinor": "2795"
+      }
+    },
+    {
+      "id": 151213,
+      "name": "TT Core Binaural Meditations: Volume One",
+      "slug": "tt-core-binaural-meditations-volume-one",
+      "url": "https://tricktrades.com/product/tt-core-binaural-meditations-volume-one",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Big Losses",
+        "Losing Streak",
+        "Meditations",
+        "Oversizing",
+        "Overtrading",
+        "Small Wins"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "9700",
+        "regularAmountMinor": "9700",
+        "saleAmountMinor": "9700"
+      }
+    },
+    {
+      "id": 36303,
+      "name": "War Room Psychology Box Set",
+      "slug": "war-room-psychology-box-set",
+      "url": "https://tricktrades.com/product/war-room-psychology-box-set",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Streamed Educational Videos",
+        "War Room Box Set",
+        "War Room Psychology Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "149700",
+        "regularAmountMinor": "149700",
+        "saleAmountMinor": "149700"
+      }
+    },
+    {
+      "id": 17848,
+      "name": "War Room Psychology Vol. 1",
+      "slug": "war-room-psychology-vol-1",
+      "url": "https://tricktrades.com/product/war-room-psychology-vol-1",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "Streamed Educational Videos",
+        "War Room Psychology Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "44700",
+        "regularAmountMinor": "44700",
+        "saleAmountMinor": "44700"
+      }
+    },
+    {
+      "id": 21568,
+      "name": "War Room Psychology Vol. 2",
+      "slug": "war-room-psychology-vol-2",
+      "url": "https://tricktrades.com/product/war-room-psychology-vol-2",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "Streamed Educational Videos",
+        "War Room Psychology Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "44700",
+        "regularAmountMinor": "44700",
+        "saleAmountMinor": "44700"
+      }
+    },
+    {
+      "id": 26188,
+      "name": "War Room Psychology Vol. 3",
+      "slug": "war-room-psychology-vol-3",
+      "url": "https://tricktrades.com/product/war-room-psychology-vol-3",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "War Room Psychology Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "44700",
+        "regularAmountMinor": "44700",
+        "saleAmountMinor": "44700"
+      }
+    },
+    {
+      "id": 36120,
+      "name": "War Room Psychology Vol. 4",
+      "slug": "war-room-psychology-vol-4",
+      "url": "https://tricktrades.com/product/war-room-psychology-vol-4",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "Streamed Educational Videos",
+        "War Room Psychology Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "44700",
+        "regularAmountMinor": "44700",
+        "saleAmountMinor": "44700"
+      }
+    },
+    {
+      "id": 37177,
+      "name": "War Room Technicals Box Set",
+      "slug": "war-room-technicals-box-set",
+      "url": "https://tricktrades.com/product/war-room-technicals-box-set",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Streamed Educational Videos",
+        "War Room Box Set",
+        "War Room Technicals Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "149700",
+        "regularAmountMinor": "149700",
+        "saleAmountMinor": "149700"
+      }
+    },
+    {
+      "id": 16325,
+      "name": "War Room Technicals Vol. 1",
+      "slug": "war-room-technicals-vol-1",
+      "url": "https://tricktrades.com/product/war-room-technicals-vol-1",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "War Room Box Set",
+        "War Room Technicals Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "44700",
+        "regularAmountMinor": "44700",
+        "saleAmountMinor": "44700"
+      }
+    },
+    {
+      "id": 19989,
+      "name": "War Room Technicals Vol. 2",
+      "slug": "war-room-technicals-vol-2",
+      "url": "https://tricktrades.com/product/war-room-technicals-vol-2",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "Streamed Educational Videos",
+        "War Room Technicals Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "44700",
+        "regularAmountMinor": "44700",
+        "saleAmountMinor": "44700"
+      }
+    },
+    {
+      "id": 27751,
+      "name": "War Room Technicals Vol. 3",
+      "slug": "war-room-technicals-vol-3",
+      "url": "https://tricktrades.com/product/war-room-technicals-vol-3",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "War Room Technicals Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "44700",
+        "regularAmountMinor": "44700",
+        "saleAmountMinor": "44700"
+      }
+    },
+    {
+      "id": 37168,
+      "name": "War Room Technicals Vol. 4",
+      "slug": "war-room-technicals-vol-4",
+      "url": "https://tricktrades.com/product/war-room-technicals-vol-4",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Single DVDs",
+        "Streamed Educational Videos",
+        "War Room Technicals Series"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "44700",
+        "regularAmountMinor": "44700",
+        "saleAmountMinor": "44700"
+      }
+    },
+    {
+      "id": 152009,
+      "name": "Why Do I Only Take Small Wins? | Trick Trades Core",
+      "slug": "tt-core-binaural-meditations-small-wins",
+      "url": "https://tricktrades.com/product/tt-core-binaural-meditations-small-wins",
+      "type": "simple",
+      "isPurchasable": true,
+      "isInStock": true,
+      "categories": [
+        "Meditations",
+        "Small Wins"
+      ],
+      "price": {
+        "currency": "USD",
+        "amountMinor": "2500",
+        "regularAmountMinor": "2500",
+        "saleAmountMinor": "2500"
+      }
+    }
+  ]
+}

@@ -4,8 +4,9 @@
 	import '../app.css';
 	import SiteFooter from '$lib/components/SiteFooter.svelte';
 	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import type { LayoutProps } from './$types';
 
-	let { children } = $props();
+	let { data, children }: LayoutProps = $props();
 </script>
 
 <svelte:head>
@@ -26,6 +27,6 @@
 	<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Instrument+Sans:wdth,wght@75..100,400..700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
 </svelte:head>
 
-<SiteHeader />
+<SiteHeader user={data.user} />
 <main id="main-content">{@render children()}</main>
 <SiteFooter />

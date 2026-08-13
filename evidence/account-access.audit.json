@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "sourceOrigin": "https://tricktrades.com",
+  "sanitization": {
+    "containsPersonalInformation": false,
+    "containsOrderIdentifiers": false,
+    "containsSignedDownloadUrls": false,
+    "containsSessionCredentials": false
+  },
+  "identity": {
+    "authenticated": true,
+    "legacyRoles": ["customer"],
+    "legacyCapabilityCount": 2,
+    "localMigrationRole": "admin"
+  },
+  "academy": {
+    "authenticatedCourseCount": 7,
+    "authenticatedLearningItemCount": 321,
+    "apiCourseCount": 10,
+    "apiCourseItemCount": 382,
+    "courses": [
+      { "slug": "boot-camp", "learningItems": 54, "allApiItemsListed": true, "lockedMarkerPresent": false },
+      { "slug": "project-alpha", "learningItems": 62, "allApiItemsListed": true, "lockedMarkerPresent": false },
+      { "slug": "momentum-course", "learningItems": 128, "allApiItemsListed": true, "lockedMarkerPresent": false },
+      { "slug": "boot-camp-non-member-edition", "learningItems": 46, "allApiItemsListed": true, "lockedMarkerPresent": false },
+      { "slug": "crystal-ball-gold-edition", "learningItems": 11, "allApiItemsListed": true, "lockedMarkerPresent": false },
+      { "slug": "crystal-ball-volume-1", "learningItems": 10, "allApiItemsListed": true, "lockedMarkerPresent": false },
+      { "slug": "crystal-ball-volume-2", "learningItems": 10, "allApiItemsListed": true, "lockedMarkerPresent": false }
+    ],
+    "apiOnlyCourses": [
+      { "slug": "crystal-ball-bonus", "reason": "Published in the LMS API but absent from the authenticated academy listing." },
+      { "slug": "tricks-behind-the-trade-application-members", "reason": "Draft in the LMS API and absent from the authenticated academy listing." },
+      { "slug": "tricks-behind-the-trade-application-non-members", "reason": "Draft in the LMS API and absent from the authenticated academy listing." }
+    ]
+  },
+  "orders": {
+    "recordsScanned": 22,
+    "statusCounts": {
+      "Processing": 10,
+      "Completed": 4,
+      "Failed": 6,
+      "Refunded": 1,
+      "Cancelled": 1
+    },
+    "products": [
+      { "name": "B.O.S.S Assassin", "records": 1, "statuses": { "Processing": 1 }, "entitledByOrderStatus": true },
+      { "name": "B.O.S.S. 2 SPY Sniper", "records": 1, "statuses": { "Completed": 1 }, "entitledByOrderStatus": true },
+      { "name": "Guidance", "records": 8, "statuses": { "Processing": 5, "Failed": 2, "Cancelled": 1 }, "entitledByOrderStatus": true },
+      { "name": "Kelvo's Shotgun", "records": 1, "statuses": { "Processing": 1 }, "entitledByOrderStatus": true },
+      { "name": "Line In The Sand", "records": 1, "statuses": { "Processing": 1 }, "entitledByOrderStatus": true },
+      { "name": "Mentorship", "records": 5, "statuses": { "Processing": 1, "Completed": 2, "Failed": 2 }, "entitledByOrderStatus": true },
+      { "name": "Savage Scans Collection", "records": 1, "statuses": { "Processing": 1 }, "entitledByOrderStatus": true },
+      { "name": "Size UP Guidance", "records": 3, "statuses": { "Failed": 2, "Refunded": 1 }, "entitledByOrderStatus": false },
+      { "name": "War Room Box Set", "records": 1, "statuses": { "Completed": 1 }, "entitledByOrderStatus": true }
+    ]
+  },
+  "subscriptions": {
+    "recordsScanned": 8,
+    "statusCounts": {
+      "Cancelled": 6,
+      "Pending": 2
+    },
+    "activeRecords": 0
+  },
+  "downloads": {
+    "accountDownloadsUrl": "https://tricktrades.com/my-account/downloads/",
+    "delivered": [
+      "B.O.S.S. assassin",
+      "Line In The Sand",
+      "B.O.S.S. SPY Sniper",
+      "War Room Technicals Vol. 1",
+      "War Room Psychology Vol. 1",
+      "War Room Technicals Vol. 2",
+      "War Room Psychology Vol. 2"
+    ],
+    "legacyWooMappingGaps": [
+      { "name": "War Room Technicals Vol. 3", "value": "", "reason": "The public Woo catalog contains the volume, but the completed War Room Box Set account exposes only Volumes 1 and 2." },
+      { "name": "War Room Technicals Vol. 4", "value": "", "reason": "The public Woo catalog contains the volume, but the completed War Room Box Set account exposes only Volumes 1 and 2." },
+      { "name": "War Room Psychology Vol. 3", "value": "", "reason": "The public Woo catalog contains the volume, but the completed War Room Box Set account exposes only Volumes 1 and 2." },
+      { "name": "War Room Psychology Vol. 4", "value": "", "reason": "The public Woo catalog contains the volume, but the completed War Room Box Set account exposes only Volumes 1 and 2." }
+    ]
+  },
+  "legacyMappingNotes": [
+    "Purchase status and content existence are intentionally modeled separately.",
+    "Published LMS content is retained even when WooCommerce failed to create a usable customer mapping.",
+    "Blank values are deliberate evidence gaps for manual source recovery.",
+    "Pro Trading Room is explicitly outside this migration and was not queried."
+  ]
+}

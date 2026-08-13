@@ -3,10 +3,12 @@
 	import { resolve } from '$app/paths';
 	import BrandMark from './BrandMark.svelte';
 
+	let { user }: { user: App.Locals['user'] } = $props();
 	let menuOpen = $state(false);
 	const navItems = [
 		{ href: '/', label: 'Freedom' },
 		{ href: '/day-trading-academy', label: 'Academy' },
+		{ href: '/digital-store', label: 'Store' },
 		{ href: '/resources', label: 'Member resources' }
 	] as const;
 
@@ -47,8 +49,9 @@
 		</nav>
 
 		<div class="header-actions">
-			<a class="account-link" href="https://tricktrades.com/my-account/edit-account/">My account</a>
-			<a class="button button-dark button-small" href={resolve('/day-trading-academy/boot-camp')}>Open Boot Camp</a>
+			{#if user?.role === 'admin'}<span class="admin-badge">Admin showcase</span>{/if}
+			<a class="account-link" href={resolve('/my-account')}>My account</a>
+			<a class="button button-dark button-small" href={resolve('/day-trading-academy')}>Open Academy</a>
 		</div>
 	</div>
 </header>
@@ -89,6 +92,18 @@
 		font-weight: 650;
 		letter-spacing: 0.02em;
 		color: var(--muted-ink);
+	}
+
+	.admin-badge {
+		padding: 0.35rem 0.55rem;
+		border: 1px solid var(--coral);
+		border-radius: 99rem;
+		font-family: var(--font-mono);
+		font-size: 0.48rem;
+		font-weight: 700;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--coral);
 	}
 
 	nav a::after {

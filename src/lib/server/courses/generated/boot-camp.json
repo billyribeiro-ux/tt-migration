@@ -1,0 +1,1734 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "evidence": {
+    "courseEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/courses",
+    "itemsEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/course/681/items",
+    "authenticatedAcademyListed": true,
+    "authenticatedLearningItemCount": 54,
+    "allApiItemsPresentInAuthenticatedListing": true,
+    "lockedMarkerPresent": false,
+    "error": ""
+  },
+  "course": {
+    "id": 681,
+    "title": "Boot Camp",
+    "slug": "boot-camp",
+    "url": "https://tricktrades.com/day-trading-academy/boot-camp",
+    "status": "publish",
+    "isPrivate": true,
+    "description": "Your Training Starts NOW. Over the next several days, you will become fully equipped with the tools and strategies necessary to launch your professional day trading career.",
+    "excerpt": "TrickTrades Boot Camp: Your Training Starts NOW. Over the next several days, you will become fully equipped with the tools and strategies necessary to launch your professional day trading career.",
+    "reportedLessonCount": 50,
+    "publishedLessonCount": 50,
+    "reportedAssessmentCount": 4,
+    "hasCertificate": true,
+    "products": [
+      {
+        "id": 689,
+        "name": "Boot Camp-4"
+      }
+    ]
+  },
+  "items": {
+    "modules": [
+      {
+        "id": 87209,
+        "kind": "module",
+        "title": "Orientation",
+        "slug": "orientation",
+        "url": "https://tricktrades.com/module/orientation",
+        "parentId": null,
+        "order": 3,
+        "status": "publish",
+        "description": "Quickly get up to speed with the fundamentals at TrickTrades.",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87210,
+        "kind": "module",
+        "title": "The Bones",
+        "slug": "classroom",
+        "url": "https://tricktrades.com/module/classroom",
+        "parentId": null,
+        "order": 4,
+        "status": "publish",
+        "description": "A series of high-powered videos designed for both new and experienced traders.",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87211,
+        "kind": "module",
+        "title": "Watch & Learn",
+        "slug": "basic-training",
+        "url": "https://tricktrades.com/module/basic-training",
+        "parentId": null,
+        "order": 5,
+        "status": "publish",
+        "description": "All The Basic Information You Need To Get Started Trading Stocks & Options The TT Way",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87554,
+        "kind": "module",
+        "title": "Bonus Module",
+        "slug": "bonus-module",
+        "url": "https://tricktrades.com/module/bonus-module",
+        "parentId": null,
+        "order": 6,
+        "status": "publish",
+        "description": "Learn from classic TrickTrades lessons that have stood the test of time.",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ],
+    "chapters": [
+      {
+        "id": 87015,
+        "kind": "chapter",
+        "title": "Orientation",
+        "slug": "orientation",
+        "url": "https://tricktrades.com/chapter/orientation",
+        "parentId": 87209,
+        "order": 0,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 87016,
+        "kind": "chapter",
+        "title": "TrickTrades Classic Lessons",
+        "slug": "classroom",
+        "url": "https://tricktrades.com/chapter/classroom",
+        "parentId": 87554,
+        "order": 0,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 87430,
+        "kind": "chapter",
+        "title": "Basic Training",
+        "slug": "basic-training",
+        "url": "https://tricktrades.com/chapter/basic-training",
+        "parentId": 87211,
+        "order": 0,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 87212,
+        "kind": "chapter",
+        "title": "Introduction & Tools",
+        "slug": "introduction-tools",
+        "url": "https://tricktrades.com/chapter/introduction-tools",
+        "parentId": 87210,
+        "order": 1,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 87213,
+        "kind": "chapter",
+        "title": "Chart Details & Candlesticks",
+        "slug": "chart-details-candlesticks",
+        "url": "https://tricktrades.com/chapter/chart-details-candlesticks",
+        "parentId": 87210,
+        "order": 2,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 87214,
+        "kind": "chapter",
+        "title": "Equities, Options & How To Place Orders",
+        "slug": "equities-options-how-to-place-orders",
+        "url": "https://tricktrades.com/chapter/equities-options-how-to-place-orders",
+        "parentId": 87210,
+        "order": 3,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      },
+      {
+        "id": 87215,
+        "kind": "chapter",
+        "title": "Strategy",
+        "slug": "strategy",
+        "url": "https://tricktrades.com/chapter/strategy",
+        "parentId": 87210,
+        "order": 4,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": false
+      }
+    ],
+    "lessons": [
+      {
+        "id": 87025,
+        "kind": "lesson",
+        "title": "Getting Started at TrickTrades",
+        "slug": "welcome-to-trick-trades-boot-camp",
+        "url": "https://tricktrades.com/course/welcome-to-trick-trades-boot-camp",
+        "parentId": 87015,
+        "order": 0,
+        "status": "publish",
+        "description": "It is essential to go slow, take notes and pay attention. Your success as a professional depends on how seriously your commit to this learning process is - starting right now.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/684709043"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87134,
+        "kind": "lesson",
+        "title": "Trading Puzzle Pieces",
+        "slug": "trading-puzzle-pieces",
+        "url": "https://tricktrades.com/course/trading-puzzle-pieces",
+        "parentId": 87430,
+        "order": 0,
+        "status": "publish",
+        "description": "Use this guide to put the puzzle pieces together.",
+        "lessonType": "text",
+        "resourceCount": 1,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87138,
+        "kind": "lesson",
+        "title": "Introduction",
+        "slug": "introduction",
+        "url": "https://tricktrades.com/course/introduction",
+        "parentId": 87212,
+        "order": 0,
+        "status": "publish",
+        "description": "For new-to-trading traders, we'll cover brokers, hardware, charting software and other important details needed to get up and running.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/QoaTx1i?search=0&links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87139,
+        "kind": "lesson",
+        "title": "Candlestick Basics",
+        "slug": "candlesticks-basics",
+        "url": "https://tricktrades.com/course/candlesticks-basics",
+        "parentId": 87213,
+        "order": 0,
+        "status": "publish",
+        "description": "For both new and experienced traders, Pat reviews that only candles that matter.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/VrAy47q?search=0&links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87140,
+        "kind": "lesson",
+        "title": "Range with Equities",
+        "slug": "range-with-equities",
+        "url": "https://tricktrades.com/course/range-with-equities",
+        "parentId": 87214,
+        "order": 0,
+        "status": "publish",
+        "description": "Range with equities",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/ywZtyRL?search=0&links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87141,
+        "kind": "lesson",
+        "title": "Introducing Strategy & Setups",
+        "slug": "introducing-strategy-setups",
+        "url": "https://tricktrades.com/course/introducing-strategy-setups",
+        "parentId": 87215,
+        "order": 0,
+        "status": "publish",
+        "description": "In this video, we cover optimal times to trade the strategy, the best setups, and when to trade them.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/xNaJWj4?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87180,
+        "kind": "lesson",
+        "title": "B1: Daily Chart Lesson",
+        "slug": "the-daily-chart",
+        "url": "https://tricktrades.com/course/the-daily-chart",
+        "parentId": 87016,
+        "order": 0,
+        "status": "publish",
+        "description": "Pat teaches why the daily chart is your \"Bible.\"",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/244523163"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87251,
+        "kind": "lesson",
+        "title": "Edge with Higher Priced Stocks",
+        "slug": "edge-with-higher-priced-stocks",
+        "url": "https://tricktrades.com/course/edge-with-higher-priced-stocks",
+        "parentId": 87214,
+        "order": 2,
+        "status": "publish",
+        "description": "Edge with Higher Priced Stocks",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/c3AHFNe?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87186,
+        "kind": "lesson",
+        "title": "B2: At the Market Open Lesson",
+        "slug": "at-the-market-open-lesson",
+        "url": "https://tricktrades.com/course/at-the-market-open-lesson",
+        "parentId": 87016,
+        "order": 2,
+        "status": "publish",
+        "description": "At the Market Open Lesson",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/267511384"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87255,
+        "kind": "lesson",
+        "title": "Deeper Into Strategy",
+        "slug": "deeper-into-strategy",
+        "url": "https://tricktrades.com/course/deeper-into-strategy",
+        "parentId": 87215,
+        "order": 2,
+        "status": "publish",
+        "description": "An in depth explanation of TrickTrades strategy.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/ciLX4gx?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87248,
+        "kind": "lesson",
+        "title": "Candlestick Patterns",
+        "slug": "candlestick-patterns",
+        "url": "https://tricktrades.com/course/candlestick-patterns",
+        "parentId": 87213,
+        "order": 2,
+        "status": "publish",
+        "description": "A complete look at the key candlestick patterns we use at TrickTrades.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/zYbNb3U?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87317,
+        "kind": "lesson",
+        "title": "Standard Risk",
+        "slug": "standard-risk",
+        "url": "https://tricktrades.com/course/standard-risk",
+        "parentId": 87430,
+        "order": 2,
+        "status": "publish",
+        "description": "",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/906980665/98be3d52d0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87416,
+        "kind": "lesson",
+        "title": "New Member Survey",
+        "slug": "new-member-survey",
+        "url": "https://tricktrades.com/course/new-member-survey",
+        "parentId": 87015,
+        "order": 2,
+        "status": "publish",
+        "description": "Understanding where you are as a trader as you begin Boot Camp is critical to knowing where you started - especially down the road when things get challenging. This survey will benchmark where you are not only as a trader, but also many of the factors that may be holding your back, or pushing you forward.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87245,
+        "kind": "lesson",
+        "title": "What Brokers to Use",
+        "slug": "what-brokers-to-use",
+        "url": "https://tricktrades.com/course/what-brokers-to-use",
+        "parentId": 87212,
+        "order": 2,
+        "status": "publish",
+        "description": "We dive into the brokers used at TrickTrades.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/tUL7EWM?search=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87197,
+        "kind": "lesson",
+        "title": "B3: How to trade dojis and small bodied candles (extremely important)",
+        "slug": "how-to-trade-dojis-and-small-bodied-candles-extremely-important",
+        "url": "https://tricktrades.com/course/how-to-trade-dojis-and-small-bodied-candles-extremely-important",
+        "parentId": 87016,
+        "order": 4,
+        "status": "publish",
+        "description": "How to trade dojis and small bodied candles (extremely important)",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/289396449"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87249,
+        "kind": "lesson",
+        "title": "Stuff Candle",
+        "slug": "stuff-candle",
+        "url": "https://tricktrades.com/course/stuff-candle",
+        "parentId": 87213,
+        "order": 4,
+        "status": "publish",
+        "description": "",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/etM2iZn?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87246,
+        "kind": "lesson",
+        "title": "What Type of Hardware You Need",
+        "slug": "what-type-of-hardware-you-need",
+        "url": "https://tricktrades.com/course/what-type-of-hardware-you-need",
+        "parentId": 87212,
+        "order": 4,
+        "status": "publish",
+        "description": "Pat takes you into the tools you need while keeping everything very simple.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/Bpn6Qe3?search=0&links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87027,
+        "kind": "lesson",
+        "title": "Chat Room Access",
+        "slug": "war-room-access-web",
+        "url": "https://tricktrades.com/course/war-room-access-web",
+        "parentId": 87015,
+        "order": 4,
+        "status": "publish",
+        "description": "The TrickTrades War Room is where we communicate during each morning's live trading session. Get connected to the War Room in any major web browser.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87252,
+        "kind": "lesson",
+        "title": "Basket of Stocks",
+        "slug": "basket-of-stocks",
+        "url": "https://tricktrades.com/course/basket-of-stocks",
+        "parentId": 87214,
+        "order": 4,
+        "status": "publish",
+        "description": "Basket of Stocks",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/SzbWNH9?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87256,
+        "kind": "lesson",
+        "title": "The Most Important Levels",
+        "slug": "the-most-important-levels",
+        "url": "https://tricktrades.com/course/the-most-important-levels",
+        "parentId": 87215,
+        "order": 4,
+        "status": "publish",
+        "description": "",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/RQncbcr?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87136,
+        "kind": "lesson",
+        "title": "Day Trading Slang Video",
+        "slug": "day-trading-slang-video",
+        "url": "https://tricktrades.com/course/day-trading-slang-video",
+        "parentId": 87430,
+        "order": 4,
+        "status": "publish",
+        "description": "This lesson will bring you up to speed with terminology commonly used in day trading.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/373128378"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87250,
+        "kind": "lesson",
+        "title": "Market Maker & Algo Patterns",
+        "slug": "market-maker-algo-patterns",
+        "url": "https://tricktrades.com/course/market-maker-algo-patterns",
+        "parentId": 87213,
+        "order": 6,
+        "status": "publish",
+        "description": "Market Maker & Algo Patterns",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/T1ofqVh?search=0&links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87253,
+        "kind": "lesson",
+        "title": "How to Place a Trade",
+        "slug": "how-to-place-a-trade",
+        "url": "https://tricktrades.com/course/how-to-place-a-trade",
+        "parentId": 87214,
+        "order": 6,
+        "status": "publish",
+        "description": "How to Place a Trade",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/h5zcA36?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87257,
+        "kind": "lesson",
+        "title": "How to Pay Yourself",
+        "slug": "how-to-pay-yourself",
+        "url": "https://tricktrades.com/course/how-to-pay-yourself",
+        "parentId": 87215,
+        "order": 6,
+        "status": "publish",
+        "description": "How to Pay Yourself",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/aSzEp5o?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91318,
+        "kind": "lesson",
+        "title": "Size UP App Access",
+        "slug": "size-up-app-getting-started",
+        "url": "https://tricktrades.com/course/size-up-app-getting-started",
+        "parentId": 87015,
+        "order": 6,
+        "status": "publish",
+        "description": "The Size UP App is the sizing strategy used by Trick Trades to help you grow your account over time.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87185,
+        "kind": "lesson",
+        "title": "B4: Hold Your Ground! Sticking to stops lesson",
+        "slug": "hold-your-ground-sticking-to-stops-lesson",
+        "url": "https://tricktrades.com/course/hold-your-ground-sticking-to-stops-lesson",
+        "parentId": 87016,
+        "order": 6,
+        "status": "publish",
+        "description": "Hold Your Ground! Sticking to stops lesson",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/265683746"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87184,
+        "kind": "lesson",
+        "title": "The most important video lesson ive ever done…listen",
+        "slug": "the-most-important-video-lesson-ive-ever-donelisten",
+        "url": "https://tricktrades.com/course/the-most-important-video-lesson-ive-ever-donelisten",
+        "parentId": 87430,
+        "order": 6,
+        "status": "publish",
+        "description": "The most important video lesson I've ever done....listen",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/257615846"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87247,
+        "kind": "lesson",
+        "title": "Charting Software & Setup",
+        "slug": "charting-software-setup",
+        "url": "https://tricktrades.com/course/charting-software-setup",
+        "parentId": 87212,
+        "order": 6,
+        "status": "publish",
+        "description": "Which charting software to use, and how to get the exact same layout Pat uses everyday.",
+        "lessonType": "video",
+        "resourceCount": 3,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/CJFV7wn?search=0&links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87126,
+        "kind": "lesson",
+        "title": "The Morning Routine",
+        "slug": "the-morning-routine",
+        "url": "https://tricktrades.com/course/the-morning-routine",
+        "parentId": 87015,
+        "order": 8,
+        "status": "publish",
+        "description": "Each trading day we begin with a morning routine before the market opens. This quick lesson will bring you up to speed so you feel right at home when logging in for the first time.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87189,
+        "kind": "lesson",
+        "title": "B5: Market maker games and why they do what they do.",
+        "slug": "market-maker-games-and-why-they-do-what-they-do",
+        "url": "https://tricktrades.com/course/market-maker-games-and-why-they-do-what-they-do",
+        "parentId": 87016,
+        "order": 8,
+        "status": "publish",
+        "description": "Market maker games and why they do what they do.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/272206685"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87254,
+        "kind": "lesson",
+        "title": "Options",
+        "slug": "options",
+        "url": "https://tricktrades.com/course/options",
+        "parentId": 87214,
+        "order": 8,
+        "status": "publish",
+        "description": "Options",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/fcaAjEP?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87431,
+        "kind": "lesson",
+        "title": "Why Market Conditions Matter",
+        "slug": "why-market-conditions-matter",
+        "url": "https://tricktrades.com/course/why-market-conditions-matter",
+        "parentId": 87430,
+        "order": 8,
+        "status": "publish",
+        "description": "Understand where the market is on the chart and how it influences trade decisions.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://muse.ai/embed/MHi64mc?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87190,
+        "kind": "lesson",
+        "title": "B6: Big Boy Stop Losses and how to ride the wave",
+        "slug": "big-boy-stop-losses-and-how-to-ride-the-wave",
+        "url": "https://tricktrades.com/course/big-boy-stop-losses-and-how-to-ride-the-wave",
+        "parentId": 87016,
+        "order": 10,
+        "status": "publish",
+        "description": "Big Boy Stop Losses and how to ride the wave",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/281056262"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87514,
+        "kind": "lesson",
+        "title": "Developing Trade Plans",
+        "slug": "developing-trade-plans",
+        "url": "https://tricktrades.com/course/developing-trade-plans",
+        "parentId": 87430,
+        "order": 10,
+        "status": "publish",
+        "description": "To guarantee the highest odds of success, we use the same, reliable approach to developing our trade plans every morning.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/kd85eVF?links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87537,
+        "kind": "lesson",
+        "title": "The Ideal TrickTrades Member",
+        "slug": "the-ideal-tricktrades-member",
+        "url": "https://tricktrades.com/course/the-ideal-tricktrades-member",
+        "parentId": 87015,
+        "order": 11,
+        "status": "publish",
+        "description": "What is the Ideal TrickTrades Member? Trick emphasizes the importance of being prepared, open-minded, and trusting in his teaching methods. He also talks about the need for teamwork, understanding the lessons beyond just day trading, and valuing overall well-being.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/zqUTmgn?search=0&links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87137,
+        "kind": "lesson",
+        "title": "B7: Trading Channel Video Lesson (super important) DONT MISS THIS!!!",
+        "slug": "trading-channel-video-lesson-super-important-dont-miss-this",
+        "url": "https://tricktrades.com/course/trading-channel-video-lesson-super-important-dont-miss-this",
+        "parentId": 87016,
+        "order": 12,
+        "status": "publish",
+        "description": "",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/328332655/6555fe7354"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87432,
+        "kind": "lesson",
+        "title": "Why We Setup Our Charts the Way We Do",
+        "slug": "why-we-setup-our-charts-the-way-we-do",
+        "url": "https://tricktrades.com/course/why-we-setup-our-charts-the-way-we-do",
+        "parentId": 87430,
+        "order": 12,
+        "status": "publish",
+        "description": "How we setup our charts maximizes efficiency and avoids missing crucial information.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/sE7DPtP?links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87156,
+        "kind": "lesson",
+        "title": "Support, Interaction and Discussion",
+        "slug": "support-interaction-discussion",
+        "url": "https://tricktrades.com/course/support-interaction-discussion",
+        "parentId": 87015,
+        "order": 13,
+        "status": "publish",
+        "description": "General guidance on interacting in the War Room (chat) during the morning trading.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87191,
+        "kind": "lesson",
+        "title": "B8: Voodoo Line strategy (magic blue)",
+        "slug": "very-important-lesson-on-hod-lod-short-or-long-bias",
+        "url": "https://tricktrades.com/course/very-important-lesson-on-hod-lod-short-or-long-bias",
+        "parentId": 87016,
+        "order": 14,
+        "status": "publish",
+        "description": "Voodoo Line strategy (magic blue)",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/288080843"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87511,
+        "kind": "lesson",
+        "title": "Ranking of Levels and all Important Levels",
+        "slug": "ranking-of-levels-and-all-important-levels",
+        "url": "https://tricktrades.com/course/ranking-of-levels-and-all-important-levels",
+        "parentId": 87430,
+        "order": 15,
+        "status": "publish",
+        "description": "Trick discusses the importance and ranking of different levels in trading. He explains the significance of intraday levels, daily chart levels, gaps, range highs and lows, and moving averages. He provides examples and emphasize the role of volume in determining the strength of levels. Trick also discusses the relevance of trend lines in trading. Overall, the video aims to provide insights into the ranking and significance of various levels in trading strategies.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/b8FEMkG?links=0&logo=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87193,
+        "kind": "lesson",
+        "title": "B9: Very Important Lesson on HOD LOD short or long bias",
+        "slug": "very-important-lesson-on-hod-lod-short-or-long-bias-2",
+        "url": "https://tricktrades.com/course/very-important-lesson-on-hod-lod-short-or-long-bias-2",
+        "parentId": 87016,
+        "order": 16,
+        "status": "publish",
+        "description": "Very Important Lesson on HOD LOD short or long bias",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/284588248"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87433,
+        "kind": "lesson",
+        "title": "Core Strategy",
+        "slug": "core-strategy",
+        "url": "https://tricktrades.com/course/core-strategy",
+        "parentId": 87430,
+        "order": 17,
+        "status": "publish",
+        "description": "Learn about the core TrickTrades strategy that Trick uses every day to pull profits from the market.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://muse.ai/embed/N9wpGyk?links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87182,
+        "kind": "lesson",
+        "title": "B10: Possibly the best long setup there is part 1",
+        "slug": "possibly-the-best-long-setup-there-is-part-1",
+        "url": "https://tricktrades.com/course/possibly-the-best-long-setup-there-is-part-1",
+        "parentId": 87016,
+        "order": 18,
+        "status": "publish",
+        "description": "Possibly the best long setup there is part 1",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/234119931"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87509,
+        "kind": "lesson",
+        "title": "Basic Trade Management",
+        "slug": "basic-trade-management",
+        "url": "https://tricktrades.com/course/basic-trade-management",
+        "parentId": 87430,
+        "order": 19,
+        "status": "publish",
+        "description": "Learn about different charts and levels to determine entry and exit points for both long and short trades.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/FfAt7Ks?links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87183,
+        "kind": "lesson",
+        "title": "B11: Possibly the best long setup Part 2",
+        "slug": "possibly-the-best-long-setup-part-2",
+        "url": "https://tricktrades.com/course/possibly-the-best-long-setup-part-2",
+        "parentId": 87016,
+        "order": 20,
+        "status": "publish",
+        "description": "Possibly the best long setup Part 2",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/235147531"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87512,
+        "kind": "lesson",
+        "title": "How to Enter a Trade That Opens Right at a Level",
+        "slug": "how-to-enter-a-trade-that-opens-right-at-a-level",
+        "url": "https://tricktrades.com/course/how-to-enter-a-trade-that-opens-right-at-a-level",
+        "parentId": 87430,
+        "order": 21,
+        "status": "publish",
+        "description": "This lessons covers the strategies necessary when the market opens right at a major level.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/gBVHk1G?links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87187,
+        "kind": "lesson",
+        "title": "B12: HOD support bounce (earnings) Lesson",
+        "slug": "yesterdays-hod-support-bounce-earnings-lesson",
+        "url": "https://tricktrades.com/course/yesterdays-hod-support-bounce-earnings-lesson",
+        "parentId": 87016,
+        "order": 22,
+        "status": "publish",
+        "description": "Yesterday's HOD support bounce (earnings) Lesson",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "vimeo",
+            "url": "https://vimeo.com/269105176"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87513,
+        "kind": "lesson",
+        "title": "Trend Formation. How to Use it and What it is.",
+        "slug": "trend-formation-how-to-use-it-and-what-it-is",
+        "url": "https://tricktrades.com/course/trend-formation-how-to-use-it-and-what-it-is",
+        "parentId": 87430,
+        "order": 23,
+        "status": "publish",
+        "description": "Learn about how properly anticipate and enter trend formation at the proper time.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/G9J9Lbk?links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87536,
+        "kind": "lesson",
+        "title": "B13: Waiting for Confirmation",
+        "slug": "b13-waiting-for-confirmation",
+        "url": "https://tricktrades.com/course/b13-waiting-for-confirmation",
+        "parentId": 87016,
+        "order": 24,
+        "status": "publish",
+        "description": "",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/KEvCXUB?search=0&links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87510,
+        "kind": "lesson",
+        "title": "Managing a Trade that isn't Working (Looking for a Way Out)",
+        "slug": "managing-a-trade-that-isnt-working-looking-for-a-way-out",
+        "url": "https://tricktrades.com/course/managing-a-trade-that-isnt-working-looking-for-a-way-out",
+        "parentId": 87430,
+        "order": 25,
+        "status": "publish",
+        "description": "When a trade doesn't go as expected, learn how to properly manage a trade and look for a way out.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/dzSYpxQ?links=0&logo=0&title=0"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ],
+    "assessments": [
+      {
+        "id": 87328,
+        "kind": "assessment",
+        "title": "Trading Essentials Quiz",
+        "slug": "trading-essentials-quiz",
+        "url": "https://tricktrades.com/assessment/trading-essentials-quiz",
+        "parentId": 87215,
+        "order": 8,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87338,
+        "kind": "assessment",
+        "title": "Basic Training Quiz 1",
+        "slug": "basic-training-quiz-1",
+        "url": "https://tricktrades.com/assessment/basic-training-quiz-1",
+        "parentId": 87430,
+        "order": 14,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87264,
+        "kind": "assessment",
+        "title": "Orientation Quiz",
+        "slug": "orientation-quiz",
+        "url": "https://tricktrades.com/assessment/orientation-quiz",
+        "parentId": 87015,
+        "order": 15,
+        "status": "publish",
+        "description": "Complete the Orientation Quiz to begin the next module. A score of 90% or more is required.",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 87348,
+        "kind": "assessment",
+        "title": "Basic Training Quiz 2 & Final Exam Question",
+        "slug": "basic-training-quiz-2",
+        "url": "https://tricktrades.com/assessment/basic-training-quiz-2",
+        "parentId": 87430,
+        "order": 27,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ]
+  },
+  "unresolvedItems": []
+}

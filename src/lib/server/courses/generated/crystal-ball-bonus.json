@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "evidence": {
+    "courseEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/courses",
+    "itemsEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/course/700/items",
+    "authenticatedAcademyListed": false,
+    "authenticatedLearningItemCount": null,
+    "allApiItemsPresentInAuthenticatedListing": null,
+    "lockedMarkerPresent": null,
+    "error": ""
+  },
+  "course": {
+    "id": 700,
+    "title": "Crystal Ball: Bonus",
+    "slug": "crystal-ball-bonus",
+    "url": "https://tricktrades.com/day-trading-academy/crystal-ball-bonus",
+    "status": "publish",
+    "isPrivate": true,
+    "description": "In this Bonus Course, continue the educational groundwork from Volumes 1 and 2, with two more live training sessions.",
+    "excerpt": "In this Bonus Course, continue the educational groundwork from Volumes 1 and 2, with two more live training sessions.",
+    "reportedLessonCount": 2,
+    "publishedLessonCount": 2,
+    "reportedAssessmentCount": 1,
+    "hasCertificate": true,
+    "products": [
+      {
+        "id": 701,
+        "name": "Crystal Ball: Bonus"
+      }
+    ]
+  },
+  "items": {
+    "modules": [],
+    "chapters": [],
+    "lessons": [
+      {
+        "id": 89155,
+        "kind": "lesson",
+        "title": "Crystal Ball Bonus: Live Trading 1",
+        "slug": "crystal-ball-bonus-live-trading-1",
+        "url": "https://tricktrades.com/course/crystal-ball-bonus-live-trading-1",
+        "parentId": null,
+        "order": 0,
+        "status": "publish",
+        "description": "Dig deeper into the importance of following trade plans and being prepared for trades to fail. Throughout this lesson, Pat analyzes charts and makes trading decisions based on the behavior of specific stocks. He stresses the importance of paying oneself during profitable trades and discusses the potential for both profit and loss. Pat also emphasizes the need to pay attention to multiple factors, such as support and resistance levels and the overall market trend.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/9Qt7H9s?links=0&logo=0&title=0&subtitles=auto"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 89156,
+        "kind": "lesson",
+        "title": "Crystal Ball Bonus: Live Trading 2",
+        "slug": "crystal-ball-bonus-live-trading-2",
+        "url": "https://tricktrades.com/course/crystal-ball-bonus-live-trading-2",
+        "parentId": null,
+        "order": 1,
+        "status": "publish",
+        "description": "In this lesson, Pat discusses live trading strategies and analyzes the movement of stocks such as Apple and AMD. He provides insights into resistance levels, potential squeezes, and recommend being patient and cautious in trades. Pat emphasizes the importance of correct averaging and paying oneself on pullbacks. He wraps up Crystal Ball by teaching about the significance of studying the natural movement of stocks and lining up multiple puzzle pieces to increase trading odds.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/embed/wK6cepG?links=0&logo=0&title=0&subtitles=auto"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ],
+    "assessments": [
+      {
+        "id": 89168,
+        "kind": "assessment",
+        "title": "Crystal Ball Bonus: Quiz 1",
+        "slug": "crystal-ball-bonus-quiz-1",
+        "url": "https://tricktrades.com/assessment/crystal-ball-bonus-quiz-1",
+        "parentId": null,
+        "order": 2,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ]
+  },
+  "unresolvedItems": []
+}

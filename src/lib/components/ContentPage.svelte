@@ -5,13 +5,30 @@
 	let {
 		item,
 		module,
+		course,
 		previous,
 		next
-	}: { item: Lesson; module: CourseModule; previous?: Lesson; next?: Lesson } = $props();
+	}: {
+		item: Lesson;
+		module: CourseModule;
+		course: { title: string; slug: string; url: string };
+		previous?: Lesson;
+		next?: Lesson;
+	} = $props();
+
+	function playerUrl(mediaUrl: string) {
+		if (!mediaUrl) return '';
+		const vimeo = mediaUrl.match(/^https?:\/\/(?:www\.)?vimeo\.com\/(\d+)(?:\/([a-z0-9]+))?/i);
+		if (!vimeo) return mediaUrl;
+		return `https://player.vimeo.com/video/${vimeo[1]}${vimeo[2] ? `?h=${vimeo[2]}` : ''}`;
+	}
+
+	const embeddedMediaUrl = $derived(playerUrl(item.media.url));
+	const moduleHref = $derived(`${resolve('/day-trading-academy/[slug]', { slug: course.slug })}#module-${module.slug}`);
 </script>
 
 <svelte:head>
-	<title>{item.title} — Trick Trades Boot Camp</title>
+	<title>{item.title} — {course.title}</title>
 	<meta name="description" content={item.description} />
 </svelte:head>
 
@@ -19,8 +36,8 @@
 	<div class="shell">
 		<nav aria-label="Breadcrumb">
 			<a href={resolve('/day-trading-academy')}>Academy</a><span>/</span>
-			<a href={resolve('/day-trading-academy/boot-camp')}>Boot Camp</a><span>/</span>
-			<a href={resolve(`/day-trading-academy/boot-camp#module-${module.slug}`)}>{module.title}</a>
+			<a href={resolve('/day-trading-academy/[slug]', { slug: course.slug })}>{course.title}</a><span>/</span>
+			<a {...{ href: moduleHref }}>{module.title}</a>
 		</nav>
 		<div class="content-heading">
 			<div>
@@ -38,18 +55,33 @@
 			<p class="aside-label">Module</p>
 			<strong>{module.title}</strong>
 			<p>{module.description}</p>
-			<a href={resolve(`/day-trading-academy/boot-camp#module-${module.slug}`)}>Back to module <span aria-hidden="true">↗</span></a>
+			<a {...{ href: moduleHref }}>Back to module <span aria-hidden="true">↗</span></a>
 		</aside>
 		<article>
-			<div class="media-placeholder">
-				<div class="media-mark" aria-hidden="true">{item.kind === 'assessment' ? '✓' : '▶'}</div>
-				<div>
-					<p class="eyebrow">Protected member content</p>
-					<h2>{item.kind === 'assessment' ? 'Continue to the original assessment' : 'Continue to the original lesson'}</h2>
-					<p>The export contains the complete curriculum map, descriptions and member URLs, but not the protected lesson media. Open the original page to use your existing Trick Trades account access.</p>
-					<a {...{ href: item.originalUrl }} class="button button-signal">Open original {item.kind}</a>
+			{#if embeddedMediaUrl}
+				<div class="media-player">
+					<iframe
+						src={embeddedMediaUrl}
+						title={item.title}
+						allow="autoplay; fullscreen; picture-in-picture; encrypted-media"
+						allowfullscreen
+					></iframe>
+					<div>
+						<p><span>{item.media.provider || 'embedded'}</span> · authenticated showcase media</p>
+						<a {...{ href: item.originalUrl }}>Open source {item.kind} <span aria-hidden="true">↗</span></a>
+					</div>
 				</div>
-			</div>
+			{:else}
+				<div class="media-placeholder">
+					<div class="media-mark" aria-hidden="true">{item.kind === 'assessment' ? '✓' : '▶'}</div>
+					<div>
+						<p class="eyebrow">Protected member content</p>
+						<h2>{item.kind === 'assessment' ? 'Continue to the original assessment' : 'Media evidence still required'}</h2>
+						<p>The source item is evidenced, but its API record did not provide an embeddable media URL. The original member destination remains available while this blank is recovered.</p>
+						<a {...{ href: item.originalUrl }} class="button button-signal">Open original {item.kind}</a>
+					</div>
+				</div>
+			{/if}
 
 			<div class="lesson-note">
 				<span>Remember</span>
@@ -174,6 +206,40 @@
 		min-height: 28rem;
 		border: 1px solid var(--line);
 		background: var(--paper);
+	}
+
+	.media-player {
+		border: 1px solid var(--line);
+		background: var(--ink);
+	}
+
+	.media-player iframe {
+		display: block;
+		width: 100%;
+		aspect-ratio: 16 / 9;
+		border: 0;
+		background: #000;
+	}
+
+	.media-player > div {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 1rem;
+		padding: 1rem 1.2rem;
+		font-family: var(--font-mono);
+		font-size: 0.56rem;
+		text-transform: uppercase;
+		color: var(--muted-paper);
+	}
+
+	.media-player p span {
+		color: var(--signal);
+	}
+
+	.media-player a {
+		font-weight: 700;
+		color: var(--paper);
 	}
 
 	.media-mark {

@@ -1,25 +1,32 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
-	import { courseProducts } from '$lib/course-data';
+	import type { PageProps } from './$types';
+
+	let { data }: PageProps = $props();
+
+	const learningItemCount = $derived(data.courses.reduce((total, course) => total + course.counts.lessons + course.counts.assessments, 0));
+	const unresolvedCount = $derived(data.courses.reduce((total, course) => total + course.counts.unresolved, 0));
+	const authenticatedCount = $derived(data.courses.filter((course) => course.evidence.authenticatedAcademyListed).length);
 </script>
 
 <svelte:head>
 	<title>Day Trading Academy — Trick Trades</title>
-	<meta name="description" content="Access the Trick Trades curriculum, member courses and complete 50-lesson Boot Camp map." />
+	<meta name="description" content="The complete API-evidenced Trick Trades course catalog, including authenticated and recovered course content." />
 </svelte:head>
 
 <section class="page-hero academy-hero">
 	<div class="shell academy-heading">
 		<div>
-			<p class="eyebrow">Member learning hub</p>
-			<h1 class="display-title">The academy, organized around action.</h1>
+			<p class="eyebrow">Evidence-backed migration</p>
+			<h1 class="display-title">Every course the LMS reports. Nothing silently dropped.</h1>
 		</div>
-		<p class="lede">Every course path found in the original member area is collected here. Boot Camp is rebuilt as a fast Svelte learning experience; specialist courses continue to their existing member pages.</p>
+		<p class="lede">Authenticated access and raw course existence are tracked separately, so a broken WooCommerce mapping cannot erase valid curriculum.</p>
 	</div>
 	<div class="shell stat-row">
-		<div class="stat"><strong>50</strong><span>Boot Camp lessons</span></div>
-		<div class="stat"><strong>04</strong><span>Knowledge checks</span></div>
-		<div class="stat"><strong>05</strong><span>Course pathways</span></div>
+		<div class="stat"><strong>{String(data.courses.length).padStart(2, '0')}</strong><span>Course containers</span></div>
+		<div class="stat"><strong>{learningItemCount}</strong><span>Learning destinations</span></div>
+		<div class="stat"><strong>{authenticatedCount}</strong><span>Access-verified courses</span></div>
+		<div class="stat"><strong>{unresolvedCount}</strong><span>Empty evidence slots</span></div>
 	</div>
 </section>
 
@@ -27,26 +34,32 @@
 	<div class="shell">
 		<div class="section-heading">
 			<div>
-				<p class="eyebrow">All courses</p>
-				<h2 class="section-title">Choose your next focused block of work.</h2>
+				<p class="eyebrow">Complete inventory</p>
+				<h2 class="section-title">Verified courses first. API recoveries retained.</h2>
 			</div>
-			<p class="lede">Start with Boot Camp if you have not completed the foundation. The remaining programs open on the existing member platform, where your original account access is enforced.</p>
+			<p class="lede">Each card opens the locally migrated curriculum. Media URLs are held in server-only course files and released through the member experience.</p>
 		</div>
 
 		<div class="course-grid">
-			{#each courseProducts as course, index (course.title)}
-				<article class:primary={index === 0}>
-					<div class="course-index">0{index + 1} / 05</div>
+			{#each data.courses as course, index (course.slug)}
+				<article class:verified={course.evidence.authenticatedAcademyListed}>
+					<div class="course-index">{String(index + 1).padStart(2, '0')} / {String(data.courses.length).padStart(2, '0')}</div>
 					<div>
-						<p class="course-meta">{course.meta}</p>
+						<p class="course-meta">
+							{course.evidence.authenticatedAcademyListed ? 'Authenticated access' : course.status === 'draft' ? 'Draft recovery' : 'API-only recovery'}
+						</p>
 						<h3>{course.title}</h3>
-						<p>{course.description}</p>
+						<p>{course.excerpt || course.description || 'Course record recovered from the source LMS.'}</p>
 					</div>
-					{#if index === 0}
-						<a href={resolve('/day-trading-academy/boot-camp')} class="course-link">Open curriculum <span aria-hidden="true">↗</span></a>
-					{:else}
-						<a {...{ href: course.href }} class="course-link">Open original course <span aria-hidden="true">↗</span></a>
-					{/if}
+					<dl>
+						<div><dt>Lessons</dt><dd>{course.counts.lessons}</dd></div>
+						<div><dt>Checks</dt><dd>{course.counts.assessments}</dd></div>
+						<div><dt>Media URLs</dt><dd>{course.counts.mediaUrls}</dd></div>
+						<div class:gap={course.counts.unresolved > 0}><dt>Empty</dt><dd>{course.counts.unresolved}</dd></div>
+					</dl>
+					<a href={resolve('/day-trading-academy/[slug]', { slug: course.slug })} class="course-link">
+						Open curriculum <span aria-hidden="true">↗</span>
+					</a>
 				</article>
 			{/each}
 		</div>
@@ -56,14 +69,14 @@
 <section class="path-section surface-dark">
 	<div class="shell path-grid">
 		<div>
-			<p class="eyebrow">Recommended path</p>
-			<h2 class="section-title">Build the bones before adding speed.</h2>
+			<p class="eyebrow">Migration rule</p>
+			<h2 class="section-title">Evidence gaps stay visible until they are resolved.</h2>
 		</div>
 		<ol>
-			<li><span>01</span><div><strong>Orient</strong><p>Set up access, tools, routine and expectations.</p></div></li>
-			<li><span>02</span><div><strong>Understand</strong><p>Learn charts, candles, levels, orders and the strategy.</p></div></li>
-			<li><span>03</span><div><strong>Apply</strong><p>Build trade plans, define risk and manage live outcomes.</p></div></li>
-			<li><span>04</span><div><strong>Refine</strong><p>Use the classic lessons and specialist courses to deepen judgment.</p></div></li>
+			<li><span>01</span><div><strong>Discover</strong><p>Read the LMS and Woo catalogs independently.</p></div></li>
+			<li><span>02</span><div><strong>Verify</strong><p>Compare authenticated listings against API item URLs.</p></div></li>
+			<li><span>03</span><div><strong>Recover</strong><p>Keep orphaned courses and broken product mappings in the migration queue.</p></div></li>
+			<li><span>04</span><div><strong>Fill</strong><p>Use blank slots only when no source evidence exists yet.</p></div></li>
 		</ol>
 	</div>
 </section>
@@ -79,11 +92,12 @@
 	}
 
 	.academy-heading h1 {
-		max-width: 58rem;
+		max-width: 66rem;
 		margin: 1.5rem 0 4rem;
 	}
 
-	.academy-heading .eyebrow {
+	.academy-heading .eyebrow,
+	.path-grid .eyebrow {
 		color: var(--signal);
 	}
 
@@ -91,41 +105,35 @@
 		margin-bottom: 4rem;
 	}
 
-	.section-heading {
-		align-items: end;
+	.stat-row {
+		grid-template-columns: repeat(4, 1fr);
 	}
 
 	.section-heading h2 {
-		max-width: 49rem;
+		max-width: 52rem;
 		margin-top: 1.4rem;
 	}
 
 	.course-grid {
 		display: grid;
-		grid-template-columns: repeat(6, 1fr);
+		grid-template-columns: repeat(2, 1fr);
 		gap: 1rem;
 		margin-top: 4rem;
 	}
 
 	.course-grid article {
 		display: flex;
-		min-height: 29rem;
-		grid-column: span 2;
+		min-height: 30rem;
 		flex-direction: column;
 		justify-content: space-between;
 		padding: 1.7rem;
 		border: 1px solid var(--line);
 		background: var(--paper);
-		transition: transform 180ms ease, box-shadow 180ms ease;
+		transition: box-shadow 180ms ease, transform 180ms ease;
 	}
 
-	.course-grid article:nth-child(n + 4) {
-		grid-column: span 3;
-		min-height: 23rem;
-	}
-
-	.course-grid article.primary {
-		background: var(--signal);
+	.course-grid article.verified {
+		border-top: 0.35rem solid var(--signal);
 	}
 
 	.course-grid article:hover {
@@ -134,11 +142,13 @@
 	}
 
 	.course-index,
-	.course-meta {
+	.course-meta,
+	dt,
+	dd {
 		font-family: var(--font-mono);
-		font-size: 0.58rem;
+		font-size: 0.56rem;
 		font-weight: 700;
-		letter-spacing: 0.1em;
+		letter-spacing: 0.08em;
 		text-transform: uppercase;
 	}
 
@@ -153,16 +163,46 @@
 
 	.course-grid h3 {
 		font-family: var(--font-display);
-		font-size: clamp(2rem, 3vw, 3rem);
+		font-size: clamp(2.2rem, 4vw, 4rem);
 		font-weight: 400;
 		line-height: 0.95;
 	}
 
 	.course-grid div > p:last-child {
+		max-width: 48rem;
 		margin-top: 1rem;
-		font-size: 0.84rem;
+		font-size: 0.82rem;
 		line-height: 1.6;
 		color: var(--muted-ink);
+	}
+
+	dl {
+		display: grid;
+		grid-template-columns: repeat(4, 1fr);
+		margin: 2rem 0;
+		border: 1px solid var(--line);
+	}
+
+	dl div {
+		padding: 0.8rem;
+		border-right: 1px solid var(--line);
+	}
+
+	dl div:last-child {
+		border-right: 0;
+	}
+
+	dl div.gap {
+		background: color-mix(in srgb, var(--coral) 12%, transparent);
+	}
+
+	dt {
+		color: var(--muted-ink);
+	}
+
+	dd {
+		margin-top: 0.5rem;
+		font-size: 0.8rem;
 	}
 
 	.course-link {
@@ -176,10 +216,6 @@
 		font-weight: 700;
 	}
 
-	.course-link span {
-		font-size: 1rem;
-	}
-
 	.path-section {
 		padding-block: clamp(5rem, 10vw, 9rem);
 	}
@@ -188,12 +224,8 @@
 		align-items: start;
 	}
 
-	.path-grid .eyebrow {
-		color: var(--signal);
-	}
-
 	.path-grid h2 {
-		max-width: 38rem;
+		max-width: 42rem;
 		margin-top: 1.5rem;
 	}
 
@@ -238,23 +270,15 @@
 			grid-template-columns: 1fr;
 		}
 
-		.academy-heading h1 {
-			margin-bottom: 0;
-		}
-
 		.course-grid {
-			grid-template-columns: 1fr 1fr;
-		}
-
-		.course-grid article,
-		.course-grid article:nth-child(n + 4) {
-			grid-column: span 1;
+			grid-template-columns: 1fr;
 		}
 	}
 
-	@media (max-width: 560px) {
-		.course-grid {
-			grid-template-columns: 1fr;
+	@media (max-width: 620px) {
+		.stat-row,
+		dl {
+			grid-template-columns: 1fr 1fr;
 		}
 	}
 </style>

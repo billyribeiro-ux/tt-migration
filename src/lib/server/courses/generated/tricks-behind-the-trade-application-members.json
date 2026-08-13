@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "evidence": {
+    "courseEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/courses",
+    "itemsEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/course/692/items",
+    "authenticatedAcademyListed": false,
+    "authenticatedLearningItemCount": null,
+    "allApiItemsPresentInAuthenticatedListing": null,
+    "lockedMarkerPresent": null,
+    "error": ""
+  },
+  "course": {
+    "id": 692,
+    "title": "Trick's Behind the Trade Application: Members",
+    "slug": "tricks-behind-the-trade-application-members",
+    "url": "https://tricktrades.com/day-trading-academy/tricks-behind-the-trade-application-members",
+    "status": "draft",
+    "isPrivate": true,
+    "description": "Overview: Get \"Behind the Trade\" with me, Professional Day Trader \"Trick\" Mitchell, where I get struggling traders to stop doing stupid shit. If selected, I will personally coach you on not only a recent trade of your choosing, but also on the thoughts and emotions that influenced your trading decisions. To qualify, you must agree to be on camera and potentially answer some uncomfortable questions. This is an incredible opportunity to have your skills and emotions evaluated and guided by one of the best trading coaches you can find. I ask that you approach this opportunity with full transparency, along with a willingness to be helped, tested and pushed beyond your limits.",
+    "excerpt": "Get \"Behind the Trade\" with me, Professional Day Trader \"Trick\" Mitchell, where I get struggling traders to stop doing stupid shit.",
+    "reportedLessonCount": 1,
+    "publishedLessonCount": 1,
+    "reportedAssessmentCount": 2,
+    "hasCertificate": false,
+    "products": [
+      {
+        "id": 693,
+        "name": "Trick's Behind the Trade Application: Members"
+      }
+    ]
+  },
+  "items": {
+    "modules": [],
+    "chapters": [],
+    "lessons": [
+      {
+        "id": 88207,
+        "kind": "lesson",
+        "title": "Behind the Trade Introduction-Members",
+        "slug": "behind-the-trade-introduction-members",
+        "url": "https://tricktrades.com/course/behind-the-trade-introduction-members",
+        "parentId": null,
+        "order": 0,
+        "status": "publish",
+        "description": "Please review the disclaimer, terms & conditions and preparation instructions before you begin.",
+        "lessonType": "text",
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "youtube",
+            "url": ""
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ],
+    "assessments": [
+      {
+        "id": 88205,
+        "kind": "assessment",
+        "title": "Step 1: Questions [Members]",
+        "slug": "step-1-questions-members",
+        "url": "https://tricktrades.com/assessment/step-1-questions-members",
+        "parentId": null,
+        "order": 1,
+        "status": "publish",
+        "description": "To be considered to be coached for Trick's Behind the Trade, please complete the application questions.",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 88206,
+        "kind": "assessment",
+        "title": "Step 2: Uploads [Members]",
+        "slug": "step-2-uploads-members",
+        "url": "https://tricktrades.com/assessment/step-2-uploads-members",
+        "parentId": null,
+        "order": 2,
+        "status": "publish",
+        "description": "Upload two image files: 1. A screen shot of your entries and exits on the trade you want to be reviewed. 2. A screen shot of your P & L from the trade.",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ]
+  },
+  "unresolvedItems": []
+}

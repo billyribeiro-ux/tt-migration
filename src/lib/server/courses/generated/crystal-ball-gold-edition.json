@@ -1,0 +1,328 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "evidence": {
+    "courseEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/courses",
+    "itemsEndpoint": "https://tricktrades.com/wp-json/tva-public/v1/course/705/items",
+    "authenticatedAcademyListed": true,
+    "authenticatedLearningItemCount": 11,
+    "allApiItemsPresentInAuthenticatedListing": true,
+    "lockedMarkerPresent": false,
+    "error": ""
+  },
+  "course": {
+    "id": 705,
+    "title": "Crystal Ball: Gold Edition",
+    "slug": "crystal-ball-gold-edition",
+    "url": "https://tricktrades.com/day-trading-academy/crystal-ball-gold-edition",
+    "status": "publish",
+    "isPrivate": true,
+    "description": "",
+    "excerpt": "In this \"Gold Edition,\" professional Day Trader & Coach, Pat Mitchell, introduces live trades captured over a nine month period. You will learn about natural movement theory, trend identification, managing trades during technological failures, advanced trade management, and holding ground in stressful situations. Quizzes throughout the course aid in information retention, with the goal of making the trading process more actionable. This is a course you will want to take again and again throughout your professional trading career!",
+    "reportedLessonCount": 9,
+    "publishedLessonCount": 9,
+    "reportedAssessmentCount": 2,
+    "hasCertificate": true,
+    "products": [
+      {
+        "id": 706,
+        "name": "Crystal Ball: Gold Edition"
+      }
+    ]
+  },
+  "items": {
+    "modules": [],
+    "chapters": [],
+    "lessons": [
+      {
+        "id": 91477,
+        "kind": "lesson",
+        "title": "SPY APPL Live Trade",
+        "slug": "spy-appl-live-trade",
+        "url": "https://tricktrades.com/course/spy-appl-live-trade",
+        "parentId": null,
+        "order": 0,
+        "status": "publish",
+        "description": "Learn how to identify trends and make quick trades based on market movement as well as the importance of reacting to price action and preserving profits.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91478,
+        "kind": "lesson",
+        "title": "Into The Level",
+        "slug": "into-the-level",
+        "url": "https://tricktrades.com/course/into-the-level",
+        "parentId": null,
+        "order": 1,
+        "status": "publish",
+        "description": "Pat teaches the importance of watching natural areas of support, and resistance and adapting to market conditions, and locking in profits.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91518,
+        "kind": "lesson",
+        "title": "Protection & Natural Movement",
+        "slug": "protection-natural-movement",
+        "url": "https://tricktrades.com/course/protection-natural-movement",
+        "parentId": null,
+        "order": 2,
+        "status": "publish",
+        "description": "Pat demonstrates how the application of natural movement theory helps you to predict where to pull profits throughout the course of a trade.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91519,
+        "kind": "lesson",
+        "title": "Patience When Technology Fails",
+        "slug": "patience-when-technology-fails",
+        "url": "https://tricktrades.com/course/patience-when-technology-fails",
+        "parentId": null,
+        "order": 3,
+        "status": "publish",
+        "description": "Learn how to adapt to market movements even when technology fails by maintaining composure and focusing on overall market conditions.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91520,
+        "kind": "lesson",
+        "title": "Advanced Trade Management",
+        "slug": "advanced-trade-management",
+        "url": "https://tricktrades.com/course/advanced-trade-management",
+        "parentId": null,
+        "order": 5,
+        "status": "publish",
+        "description": "Advanced lessons on the importance of risk management and making informed decisions based on market conditions.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91521,
+        "kind": "lesson",
+        "title": "Hold Your Ground & Remain Calm",
+        "slug": "hold-your-ground-remain-calm",
+        "url": "https://tricktrades.com/course/hold-your-ground-remain-calm",
+        "parentId": null,
+        "order": 6,
+        "status": "publish",
+        "description": "Through insights into the price action, resistance levels, and potential trade setups, dive deeper into trade management, correcting average prices, and taking profits.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://muse.ai/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91522,
+        "kind": "lesson",
+        "title": "When Your Power Goes Out Mid Trade",
+        "slug": "when-your-power-goes-out-mid-trade",
+        "url": "https://tricktrades.com/course/when-your-power-goes-out-mid-trade",
+        "parentId": null,
+        "order": 7,
+        "status": "publish",
+        "description": "When encountering technical difficulties during a trade, Pat instructs on how to remain patient, manage risk and continue to pull profits.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91523,
+        "kind": "lesson",
+        "title": "Sometimes You Just Need To Walk Away",
+        "slug": "sometimes-you-just-need-to-walk-away",
+        "url": "https://tricktrades.com/course/sometimes-you-just-need-to-walk-away",
+        "parentId": null,
+        "order": 8,
+        "status": "publish",
+        "description": "When in a high conviction trade that goes further than expected, this lesson is about staying calm, making rational decisions, and being disciplined in trading.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91546,
+        "kind": "lesson",
+        "title": "Conclusion",
+        "slug": "crystal-ball-gold-edition-conclusion",
+        "url": "https://tricktrades.com/course/crystal-ball-gold-edition-conclusion",
+        "parentId": null,
+        "order": 10,
+        "status": "publish",
+        "description": "Thank you for investing in the Crystal Ball: Gold Edition. Your next steps are to focus on learning from longer and more difficult trades, as long as they are within the spectrum of your Wheelhouse. Continue learning and improving your trading. The knowledge gained from this course, with repeated viewing, will be beneficial for the lifetime of your trading career.",
+        "lessonType": "video",
+        "resourceCount": 0,
+        "hasVideo": true,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "custom",
+            "url": "https://skiv.com/static/js/embed-player.min.js"
+          },
+          "audio": {
+            "provider": "soundcloud",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ],
+    "assessments": [
+      {
+        "id": 91544,
+        "kind": "assessment",
+        "title": "Crystal Ball Gold Edition: Quiz 1",
+        "slug": "crystal-ball-gold-edition-quiz-1",
+        "url": "https://tricktrades.com/assessment/crystal-ball-gold-edition-quiz-1",
+        "parentId": null,
+        "order": 4,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      },
+      {
+        "id": 91545,
+        "kind": "assessment",
+        "title": "Crystal Ball Gold Edition: Quiz 2",
+        "slug": "crystal-ball-gold-edition-quiz-2",
+        "url": "https://tricktrades.com/assessment/crystal-ball-gold-edition-quiz-2",
+        "parentId": null,
+        "order": 9,
+        "status": "publish",
+        "description": "",
+        "lessonType": null,
+        "resourceCount": 0,
+        "hasVideo": false,
+        "hasAudio": false,
+        "media": {
+          "video": {
+            "provider": "",
+            "url": ""
+          },
+          "audio": {
+            "provider": "",
+            "url": ""
+          }
+        },
+        "freemium": true
+      }
+    ]
+  },
+  "unresolvedItems": []
+}

@@ -1,14 +1,14 @@
-# Trick Trades — Svelte 5 rebuild
+# Trick Trades — Svelte 5 migration
 
-A complete SvelteKit conversion of the supplied Trick Trades HTML exports. The app includes the public sales experience, academy, 50-lesson Boot Camp map, four assessments, member resources, safe purchase confirmation, course progress, SEO routes, and Drizzle/Postgres persistence.
+This workspace is the evidence-backed SvelteKit migration of the Trick Trades public catalog, member academy, course content, account access, and legacy WooCommerce mappings. The application keeps public summaries separate from server-only course media records and marks every unresolved source item as an explicit evidence gap.
 
 ## Stack
 
 - Svelte 5.56.9 in runes mode
 - SvelteKit 2.70.2 (the current published major; SvelteKit 3 is not published)
 - TypeScript 6 and Vite 8
-- Drizzle ORM with Neon Postgres for edge-safe persistence
-- Cloudflare adapter and Sites-compatible staged worker output
+- Drizzle ORM with PostgreSQL and Neon HTTP for serverless persistence
+- Official SvelteKit Vercel adapter
 - pnpm 11
 
 ## Develop
@@ -18,28 +18,38 @@ pnpm install
 pnpm dev
 ```
 
-Progress works without a database using device storage. To enable synchronized progress, copy `.env.example` to `.env` and provide a Neon Postgres connection string.
+Progress works without a database using device storage. To enable synchronized progress in Vercel, provide a Neon PostgreSQL connection string and set `DATABASE_RUNTIME_ENABLED=true` in the Vercel project environment.
+
+Refresh the public source catalog with:
+
+```sh
+pnpm catalog:sync
+```
+
+The generated catalog currently contains 10 course containers, 382 evidenced course items, 18 explicit unresolved placeholders, and 79 WooCommerce products. Generated media URLs remain in `src/lib/server/courses/generated/` and are never included in public catalog JSON.
 
 ## Database
 
 ```sh
 pnpm db:generate
 pnpm db:migrate
+pnpm db:seed
 pnpm db:studio
 ```
 
-The initial migration creates anonymous learners and per-lesson progress. No purchase or billing details are stored by this app.
+The migration creates users, learners, courses, course items, products, access mappings, orders, download assets, entitlements, and lesson progress. `pnpm db:seed` is idempotent and requires `SHOWCASE_ADMIN_USERNAME`; it promotes that local showcase identity to admin and grants it access to the migrated catalog. Do not commit `.env`.
 
 ## Validate and build
 
 ```sh
 pnpm check
 pnpm build
-pnpm build:sites
 ```
-
-`pnpm build:sites` stages the Cloudflare worker and static assets in `dist/` for the Sites packaging workflow.
 
 ## Content boundaries
 
-The exports include curriculum titles, descriptions, navigation, links and one public introduction video. Protected lesson media was not present in the files, so lesson pages preserve a direct route to the original authenticated member page rather than pretending to reproduce unavailable content.
+The sanitized evidence report is `evidence/account-access.audit.json`. It deliberately omits usernames, order IDs, signed download URLs, session credentials, and other account data.
+
+`project-alpha` and `trick-trades` outside this workspace are read-only showcase references and must not be modified or integrated until the core migration is approved. Pro Trading Room is unrelated and excluded from all discovery, catalog, access, and migration work.
+
+Two user-supplied Vimeo links are retained as evidenced but unassigned records in `src/lib/server/courses/manual-media/unassigned.json`. They are not attached to a course or lesson until source evidence identifies the correct destination.

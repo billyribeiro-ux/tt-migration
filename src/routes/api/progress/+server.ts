@@ -1,7 +1,7 @@
 import { dev } from '$app/environment';
-import { allContent } from '$lib/course-data';
 import { db } from '$lib/server/db';
 import { learners, lessonProgress } from '$lib/server/db/schema';
+import { allCourseContent } from '$lib/server/courses';
 import { and, eq } from 'drizzle-orm';
 import { json } from '@sveltejs/kit';
 import type { RequestHandler } from './$types';
@@ -48,7 +48,7 @@ export const POST: RequestHandler = async ({ cookies, request }) => {
 	const slug = typeof payload?.slug === 'string' ? payload.slug : '';
 	const completed = payload?.completed;
 
-	if (!allContent.some((item) => item.slug === slug) || typeof completed !== 'boolean') {
+	if (!allCourseContent.some((item) => item.slug === slug) || typeof completed !== 'boolean') {
 		return json({ message: 'Invalid progress update.' }, { status: 400 });
 	}
 

@@ -11,7 +11,8 @@
 	let persistence = $state<'device' | 'database'>('device');
 
 	const totalItems = $derived(modules.reduce((total, module) => total + module.lessons.length + module.assessments.length, 0));
-	const completedCount = $derived(completed.length);
+	const courseItemSlugs = $derived(modules.flatMap((module) => [...module.lessons, ...module.assessments].map((item) => item.slug)));
+	const completedCount = $derived(completed.filter((slug) => courseItemSlugs.includes(slug)).length);
 	const progress = $derived(totalItems ? Math.round((completedCount / totalItems) * 100) : 0);
 	const filteredModules = $derived.by(() => {
 		const query = search.trim().toLowerCase();
@@ -93,7 +94,7 @@
 		<label class="search-box">
 			<span class="sr-only">Search lessons</span>
 			<span aria-hidden="true">⌕</span>
-			<input bind:value={search} type="search" placeholder="Search 50 lessons and 4 assessments" />
+			<input bind:value={search} type="search" placeholder={`Search ${totalItems} course items`} />
 		</label>
 		<label class="filter-toggle">
 			<input bind:checked={hideCompleted} type="checkbox" />

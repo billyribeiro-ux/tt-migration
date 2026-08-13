@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-08-13T15:36:44.354Z",
+  "courseCount": 10,
+  "courses": [
+    {
+      "id": 738,
+      "title": "Project ALPHA",
+      "slug": "project-alpha",
+      "url": "https://tricktrades.com/day-trading-academy/project-alpha",
+      "status": "publish",
+      "authenticatedAcademyListed": true,
+      "counts": {
+        "modules": 0,
+        "chapters": 6,
+        "lessons": 62,
+        "assessments": 0,
+        "unresolved": 15
+      }
+    },
+    {
+      "id": 710,
+      "title": "Momentum",
+      "slug": "momentum-course",
+      "url": "https://tricktrades.com/day-trading-academy/momentum-course",
+      "status": "publish",
+      "authenticatedAcademyListed": true,
+      "counts": {
+        "modules": 17,
+        "chapters": 9,
+        "lessons": 128,
+        "assessments": 0,
+        "unresolved": 1
+      }
+    },
+    {
+      "id": 708,
+      "title": "Boot Camp [Non-Member Edition]",
+      "slug": "boot-camp-non-member-edition",
+      "url": "https://tricktrades.com/day-trading-academy/boot-camp-non-member-edition",
+      "status": "publish",
+      "authenticatedAcademyListed": true,
+      "counts": {
+        "modules": 3,
+        "chapters": 6,
+        "lessons": 43,
+        "assessments": 3,
+        "unresolved": 0
+      }
+    },
+    {
+      "id": 681,
+      "title": "Boot Camp",
+      "slug": "boot-camp",
+      "url": "https://tricktrades.com/day-trading-academy/boot-camp",
+      "status": "publish",
+      "authenticatedAcademyListed": true,
+      "counts": {
+        "modules": 4,
+        "chapters": 7,
+        "lessons": 50,
+        "assessments": 4,
+        "unresolved": 0
+      }
+    },
+    {
+      "id": 705,
+      "title": "Crystal Ball: Gold Edition",
+      "slug": "crystal-ball-gold-edition",
+      "url": "https://tricktrades.com/day-trading-academy/crystal-ball-gold-edition",
+      "status": "publish",
+      "authenticatedAcademyListed": true,
+      "counts": {
+        "modules": 0,
+        "chapters": 0,
+        "lessons": 9,
+        "assessments": 2,
+        "unresolved": 0
+      }
+    },
+    {
+      "id": 697,
+      "title": "Crystal Ball: Volume 1",
+      "slug": "crystal-ball-volume-1",
+      "url": "https://tricktrades.com/day-trading-academy/crystal-ball-volume-1",
+      "status": "publish",
+      "authenticatedAcademyListed": true,
+      "counts": {
+        "modules": 0,
+        "chapters": 0,
+        "lessons": 8,
+        "assessments": 2,
+        "unresolved": 0
+      }
+    },
+    {
+      "id": 699,
+      "title": "Crystal Ball: Volume 2",
+      "slug": "crystal-ball-volume-2",
+      "url": "https://tricktrades.com/day-trading-academy/crystal-ball-volume-2",
+      "status": "publish",
+      "authenticatedAcademyListed": true,
+      "counts": {
+        "modules": 0,
+        "chapters": 0,
+        "lessons": 8,
+        "assessments": 2,
+        "unresolved": 0
+      }
+    },
+    {
+      "id": 700,
+      "title": "Crystal Ball: Bonus",
+      "slug": "crystal-ball-bonus",
+      "url": "https://tricktrades.com/day-trading-academy/crystal-ball-bonus",
+      "status": "publish",
+      "authenticatedAcademyListed": false,
+      "counts": {
+        "modules": 0,
+        "chapters": 0,
+        "lessons": 2,
+        "assessments": 1,
+        "unresolved": 0
+      }
+    },
+    {
+      "id": 692,
+      "title": "Trick's Behind the Trade Application: Members",
+      "slug": "tricks-behind-the-trade-application-members",
+      "url": "https://tricktrades.com/day-trading-academy/tricks-behind-the-trade-application-members",
+      "status": "draft",
+      "authenticatedAcademyListed": false,
+      "counts": {
+        "modules": 0,
+        "chapters": 0,
+        "lessons": 1,
+        "assessments": 2,
+        "unresolved": 0
+      }
+    },
+    {
+      "id": 691,
+      "title": "Trick's Behind the Trade Application: Non-Members",
+      "slug": "tricks-behind-the-trade-application-non-members",
+      "url": "https://tricktrades.com/day-trading-academy/tricks-behind-the-trade-application-non-members",
+      "status": "draft",
+      "authenticatedAcademyListed": false,
+      "counts": {
+        "modules": 0,
+        "chapters": 0,
+        "lessons": 1,
+        "assessments": 2,
+        "unresolved": 2
+      }
+    }
+  ]
+}
