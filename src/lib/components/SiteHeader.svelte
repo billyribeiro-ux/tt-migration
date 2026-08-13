@@ -50,7 +50,12 @@
 
 		<div class="header-actions">
 			{#if user?.role === 'admin'}<span class="admin-badge">Admin showcase</span>{/if}
-			<a class="account-link" href={resolve('/my-account')}>My account</a>
+			{#if user}
+				<a class="account-link" href={resolve('/my-account')}>My account</a>
+				<form method="POST" action={resolve('/logout')}><button class="account-link" type="submit">Sign out</button></form>
+			{:else}
+				<a class="account-link" href={resolve('/login')}>Sign in</a>
+			{/if}
 			<a class="button button-dark button-small" href={resolve('/day-trading-academy')}>Open Academy</a>
 		</div>
 	</div>
@@ -92,6 +97,18 @@
 		font-weight: 650;
 		letter-spacing: 0.02em;
 		color: var(--muted-ink);
+	}
+
+	.header-actions form,
+	.header-actions form button {
+		margin: 0;
+	}
+
+	.header-actions form button {
+		padding: 0;
+		border: 0;
+		background: transparent;
+		cursor: pointer;
 	}
 
 	.admin-badge {

@@ -1,5 +1,6 @@
 import { and, eq } from 'drizzle-orm';
 import { drizzle } from 'drizzle-orm/postgres-js';
+import { randomBytes, scryptSync } from 'node:crypto';
 import { readFile, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import postgres from 'postgres';
@@ -14,9 +15,19 @@ import {
 
 const databaseUrl = process.env.DATABASE_URL;
 const username = process.env.SHOWCASE_ADMIN_USERNAME?.trim().toLowerCase();
+const password = process.env.SHOWCASE_ADMIN_PASSWORD;
 
 if (!databaseUrl) throw new Error('DATABASE_URL is required to seed the showcase administrator.');
 if (!username) throw new Error('SHOWCASE_ADMIN_USERNAME is required to seed the showcase administrator.');
+if (!password) throw new Error('SHOWCASE_ADMIN_PASSWORD is required to seed the showcase administrator.');
+
+function hashPassword(value) {
+	const salt = randomBytes(16);
+	const derivedKey = scryptSync(value, salt, 64);
+	return `scrypt$${salt.toString('base64url')}$${derivedKey.toString('base64url')}`;
+}
+
+const passwordHash = hashPassword(password);
 
 const client = postgres(databaseUrl, { max: 1 });
 const db = drizzle(client);
@@ -58,10 +69,10 @@ function courseAccess(entry) {
 
 const [admin] = await db
 	.insert(users)
-	.values({ username, role: 'admin', status: 'active', sourceSystem: 'showcase-seed' })
+	.values({ username, passwordHash, role: 'admin', status: 'active', sourceSystem: 'showcase-seed' })
 	.onConflictDoUpdate({
 		target: users.username,
-		set: { role: 'admin', status: 'active', sourceSystem: 'showcase-seed', updatedAt: new Date() }
+		set: { passwordHash, role: 'admin', status: 'active', sourceSystem: 'showcase-seed', updatedAt: new Date() }
 	})
 	.returning({ id: users.id });
 

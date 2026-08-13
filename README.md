@@ -37,7 +37,7 @@ pnpm db:seed
 pnpm db:studio
 ```
 
-The migration creates users, learners, courses, course items, products, access mappings, orders, download assets, entitlements, and lesson progress. `pnpm db:seed` is idempotent and requires `SHOWCASE_ADMIN_USERNAME`; it promotes that local showcase identity to admin and grants it access to the migrated catalog. Do not commit `.env`.
+The migration creates users, learners, courses, course items, products, access mappings, orders, download assets, entitlements, and lesson progress. `pnpm db:seed` is idempotent and requires `SHOWCASE_ADMIN_USERNAME` plus `SHOWCASE_ADMIN_PASSWORD`; it securely hashes the password, promotes that identity to admin, and grants it access to the migrated catalog. Production login also requires `SHOWCASE_SESSION_SECRET`. Do not commit `.env`.
 
 ## Validate and build
 

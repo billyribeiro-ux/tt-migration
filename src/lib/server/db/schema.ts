@@ -40,6 +40,7 @@ export const users = pgTable(
 	{
 		id: uuid('id').primaryKey().defaultRandom(),
 		username: text('username').notNull(),
+		passwordHash: text('password_hash'),
 		displayName: text('display_name'),
 		role: appRole('role').notNull().default('member'),
 		status: accountStatus('status').notNull().default('active'),
